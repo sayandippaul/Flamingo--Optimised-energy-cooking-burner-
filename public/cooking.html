@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Cooking UI</title>
+  <link rel="stylesheet" href="cooking.css">
+</head>
+<body>
+
+<!-- Background Video -->
+<video autoplay muted loop id="bg-video">
+  <source src="public/videos/bg.mp4" type="video/mp4">
+</video>
+
+<div class="main">
+
+  <!-- ================= TOP BAR ================= -->
+  <div class="top-bar">
+
+    <button class="home-btn" onclick="goHome()">🏠</button>
+
+    <div id="itemName" class="top-box">Item: Loading...</div>
+
+    <div id="timer" class="top-box">Time: 00:00</div>
+
+    <div class="lpg-container">
+      <video autoplay muted loop>
+        <source src="public/videos/gas_level.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div id="status" class="top-box">Status: LOW</div>
+
+  </div>
+
+  <!-- ================= MIDDLE ================= -->
+  <div class="middle">
+
+    <!-- Cooking Video -->
+    <div class="video-section">
+      <video id="mainVideo" playsinline></video>
+    </div>
+
+    <!-- Steps -->
+    <div class="steps-section">
+      <h2>Steps</h2>
+
+      <!-- START BUTTON -->
+      <button id="startBtn">Start Cooking 🔥</button>
+
+      <ul id="stepsList"></ul>
+    </div>
+
+  </div>
+
+  <!-- ================= BOTTOM ================= -->
+  <div class="bottom-bar">
+    <div id="energy" class="bottom-card">Energy Used: --</div>
+    <div id="method" class="bottom-card">Method: --</div>
+  </div>
+
+</div>
+
+<script src="cooking.js"></script>
+</body>
+</html>

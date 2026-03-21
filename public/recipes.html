@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Recipe Predictor</title>
+  <link rel="stylesheet" href="recipes.css">
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="videos/recipesbg.mp4" type="video/mp4">
+  </video>
+
+  <div class="container">
+
+    <!-- Top Buttons -->
+    <div class="top-buttons">
+      <button id="predictBtn">Predict Recipe from Ingredients</button>
+      <button id="chooseBtn">Choose Specific Recipe</button>
+    </div>
+
+    <!-- Main Section -->
+    <div class="main">
+
+      <!-- Video Box -->
+      <div class="video-box">
+        <video id="videoPlayer" autoplay muted playsinline>
+          <source src="" type="video/mp4">
+        </video>
+      </div>
+
+      <!-- Side Panel -->
+      <div class="side-panel" id="sidePanel">
+        <!-- Dynamic content will be loaded here -->
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="recipes.js"></script>
+</body>
+</html>

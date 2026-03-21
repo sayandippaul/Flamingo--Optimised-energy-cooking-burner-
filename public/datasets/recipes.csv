@@ -1,0 +1,231 @@
+recipe_id,recipe_name,ingredients,core_ingredients,optional_ingredients,base_servings
+1,Rice,"rice,water","rice,water","salt",2
+2,Plain Rice,"rice,water","rice,water","salt",2
+3,Ghee Rice,"rice,water,ghee","rice,water,ghee","cashew,cloves,cinnamon,bay leaf",2
+4,Jeera Rice,"rice,water,cumin seeds,oil","rice,water,cumin seeds","ghee,green chilli",2
+5,Tomato Rice,"rice,tomato,oil,spices","rice,tomato","onion,green chilli,curry leaves",2
+6,Lemon Rice,"rice,lemon juice,oil","rice,lemon juice","mustard seeds,peanuts,curry leaves",2
+7,Tamarind Rice,"rice,tamarind pulp,oil","rice,tamarind pulp","peanuts,red chilli,curry leaves",2
+8,Coconut Rice,"rice,grated coconut,oil","rice,coconut","mustard seeds,green chilli,curry leaves",2
+9,Curd Rice,"rice,curd","rice,curd","milk,mustard seeds,curry leaves",2
+10,Sambar Rice,"rice,dal,sambar","rice,dal","vegetables,tamarind,spices",2
+11,Masala Rice,"rice,spices,vegetables","rice,spices","onion,garam masala,peas",2
+12,Vegetable Pulao,"rice,vegetables,oil,spices","rice,vegetables","peas,beans,carrot,garam masala",2
+13,Peas Pulao,"rice,peas,oil,spices","rice,peas","onion,green chilli,garam masala",2
+14,Fried Rice,"rice,vegetables,soy sauce,oil","rice,soy sauce","carrot,beans,capsicum",2
+15,Egg Fried Rice,"rice,egg,soy sauce,oil","rice,egg","vegetables,pepper",2
+16,Chicken Fried Rice,"rice,chicken,soy sauce,oil","rice,chicken","vegetables,garlic",2
+17,Roti,"wheat flour,water","wheat flour,water","salt",2
+18,Chapati,"wheat flour,water","wheat flour,water","salt,oil",2
+19,Missi Roti,"besan,wheat flour,spices","besan,wheat flour","onion,green chilli",2
+20,Bajra Roti,"bajra flour,water","bajra flour,water","salt",2
+21,Makki Roti,"maize flour,water","maize flour,water","salt",2
+22,Paratha,"wheat flour,oil,water","wheat flour","salt",2
+23,Aloo Paratha,"wheat flour,potato,spices","wheat flour,potato","onion,green chilli",2
+24,Gobi Paratha,"wheat flour,cauliflower,spices","wheat flour,cauliflower","onion,green chilli",2
+25,Methi Paratha,"wheat flour,fenugreek leaves,spices","wheat flour,fenugreek","curd,garlic",2
+26,Sattu Paratha,"wheat flour,sattu,spices","wheat flour,sattu","onion,lemon",2
+27,Puri,"wheat flour,oil,water","wheat flour,oil","salt",2
+28,Luchi,"maida,oil,water","maida,oil","salt",2
+29,Khichdi,"rice,dal,water","rice,dal","salt",2
+30,Vegetable Khichdi,"rice,dal,vegetables","rice,dal","carrot,peas,beans",2
+31,Dal,"dal,water","dal,water","salt,turmeric",2
+32,Dal Tadka,"dal,oil,spices","dal","garlic,cumin,red chilli",2
+33,Dal Fry,"dal,oil,onion,spices","dal,onion","garlic,tomato",2
+34,Mixed Dal,"different dals,water","dal mix","spices",2
+35,Dal Palak,"dal,spinach","dal,spinach","garlic,spices",2
+36,Dal Makhani,"black dal,butter,cream","black dal","rajma,cream",2
+37,Gujarati Dal,"dal,jaggery,tamarind","dal","spices,curry leaves",2
+38,Toor Dal,"toor dal,water","toor dal","turmeric,salt",2
+39,Moong Dal,"moong dal,water","moong dal","turmeric,salt",2
+40,Masoor Dal,"masoor dal,water","masoor dal","turmeric,salt",2
+41,Chana Dal,"chana dal,water","chana dal","salt,turmeric",2
+42,Kadhi,"curd,gram flour,water","curd,gram flour","salt,turmeric",2
+43,Kadhi Pakora,"curd,gram flour,pakora","curd,gram flour","onion,spices",3
+44,Rajma,"rajma,water","rajma","onion,tomato,spices",2
+45,Chole,"chickpeas,water","chickpeas","onion,tomato,spices",2
+46,Chana Masala,"chickpeas,spices","chickpeas","onion,tomato,garlic",2
+47,Kala Chana Curry,"black chana,water","black chana","onion,spices",2
+48,White Peas Curry,"white peas,water","white peas","onion,tomato",2
+49,Lobia Curry,"lobia,water","lobia","onion,spices",2
+50,Green Gram Curry,"green gram,water","green gram","spices",2
+51,Sprouts Curry,"sprouts,water","sprouts","onion,spices",2
+52,Soya Chunk Curry,"soya chunks,water","soya chunks","onion,tomato,spices",2
+53,Peanut Curry,"peanut,water","peanut","spices,coconut",2
+54,Besan Curry,"besan,water,curd","besan","spices,oil",2
+55,Aloo Gobi,"potato,cauliflower","potato,cauliflower","onion,spices",2
+56,Bhindi Masala,"bhindi,oil","bhindi","onion,spices",2
+57,Baingan Bharta,"brinjal,oil","brinjal","onion,tomato,spices",2
+58,Lauki Sabzi,"bottle gourd,oil","lauki","spices",2
+59,Tinda Sabzi,"tinda,oil","tinda","spices",2
+60,Parwal Sabzi,"parwal,oil","parwal","spices",2
+61,Cabbage Sabzi,"cabbage,oil","cabbage","peas,spices",2
+62,Beans Sabzi,"beans,oil","beans","spices",2
+63,Carrot Peas Sabzi,"carrot,peas","carrot,peas","spices",2
+64,Pumpkin Sabzi,"pumpkin,oil","pumpkin","spices",2
+65,Drumstick Curry,"drumstick,water","drumstick","spices,tamarind",2
+66,Beetroot Sabzi,"beetroot,oil","beetroot","spices",2
+67,Spinach Stir Fry,"spinach,oil","spinach","garlic,spices",2
+68,Methi Sabzi,"methi leaves,oil","methi","potato,spices",2
+69,Mixed Vegetable Curry,"mixed vegetables,water","vegetables","onion,tomato,spices",3
+70,Paneer Bhurji,"paneer,oil","paneer","onion,tomato,spices",2
+71,Paneer Curry,"paneer,water","paneer","onion,tomato,spices",2
+72,Palak Paneer,"paneer,spinach","paneer,spinach","garlic,spices",2
+73,Matar Paneer,"paneer,peas","paneer,peas","onion,tomato,spices",2
+74,Paneer Butter Masala,"paneer,butter,cream","paneer,butter","tomato,cream,spices",3
+75,Shahi Paneer,"paneer,cream,cashew","paneer","cream,cashew,spices",3
+76,Dry Paneer Sabzi,"paneer,oil","paneer","capsicum,spices",2
+77,Egg Curry,"egg,water","egg","onion,tomato,spices",2
+78,Egg Bhurji,"egg,oil","egg","onion,tomato,spices",2
+79,Omelette,"egg,oil","egg","onion,chilli",1
+80,Boiled Egg Masala,"egg,water","egg","onion,tomato,spices",2
+81,Fish Curry,"fish,water","fish","onion,tomato,spices",2
+82,Fish Fry,"fish,oil","fish","spices",1
+83,Mustard Fish,"fish,mustard paste","fish","mustard,spices",2
+84,Fish Jhol,"fish,water","fish","potato,spices",2
+85,Prawn Curry,"prawn,water","prawn","onion,tomato,spices",2
+86,Chingri Malai Curry,"prawn,coconut milk","prawn","onion,spices",3
+87,Chicken Curry,"chicken,water","chicken","onion,tomato,spices",2
+88,Chicken Fry,"chicken,oil","chicken","spices",2
+89,Chicken Masala,"chicken,spices","chicken","onion,tomato,spices",2
+90,Chilli Chicken,"chicken,oil","chicken","capsicum,soy sauce",2
+91,Butter Chicken,"chicken,butter,cream","chicken","tomato,cream,spices",3
+92,Chicken Tikka Masala,"chicken,yogurt,spices","chicken","tomato,cream",3
+93,Chicken Korma,"chicken,curd,cashew","chicken","spices,cream",3
+94,Chicken Stew,"chicken,water","chicken","vegetables,spices",2
+95,Chicken Tikka,"chicken,yogurt","chicken","spices",2
+96,Mutton Curry,"mutton,water","mutton","onion,tomato,spices",2
+97,Kosha Mangsho,"mutton,oil","mutton","onion,spices",2
+98,Keema Curry,"minced meat,water","minced meat","onion,tomato,spices",2
+99,Mutton Stew,"mutton,water","mutton","vegetables,spices",2
+100,Biryani,"rice,meat,spices","rice,meat","onion,yogurt,spices",4
+101,Veg Biryani,"rice,vegetables,spices","rice,vegetables","onion,yogurt,spices",3
+102,Egg Biryani,"rice,egg,spices","rice,egg","onion,yogurt,spices",3
+103,Chicken Biryani,"rice,chicken,spices","rice,chicken","onion,yogurt,spices",4
+104,Idli,"rice,urad dal","rice,urad dal","salt",2
+105,Dosa,"rice,urad dal","rice,urad dal","oil",2
+106,Uttapam,"rice,urad dal","rice,urad dal","onion,vegetables",2
+107,Pongal,"rice,dal","rice,dal","ghee,pepper",2
+108,Upma,"rava,water","rava","vegetables,spices",2
+109,Rasam,"tamarind,water","tamarind","tomato,spices",2
+110,Kootu,"vegetables,dal","vegetables,dal","coconut,spices",2
+111,Poriyal,"vegetables,oil","vegetables","coconut,spices",2
+112,Avial,"mixed vegetables,coconut","vegetables","curd,coconut",3
+113,Thepla,"wheat flour,methi","wheat flour","spices",2
+114,Handvo,"rice,dal","rice,dal","vegetables,spices",3
+115,Dhokla,"besan,water","besan","lemon,eno",2
+116,Khandvi,"besan,curd","besan","mustard,spices",2
+117,Undhiyu,"mixed vegetables,spices","vegetables","oil,masala",4
+118,Dal Baati,"dal,wheat flour","dal,flour","ghee,spices",4
+119,Baati Chokha,"wheat flour,vegetables","flour","spices,oil",3
+120,Litti Chokha,"wheat flour,sattu","flour,sattu","spices,oil",3
+121,Pav Bhaji,"vegetables,pav","vegetables","butter,spices",3
+122,Vada Pav,"potato,pav","potato,pav","spices,oil",3
+123,Misal Pav,"sprouts,pav","sprouts","spices,oil",3
+124,Dabeli,"potato,pav","potato,pav","spices,peanuts",3
+125,Poha,"flattened rice,vegetables","poha","spices,oil",2
+126,Dalia,"broken wheat,water","dalia","vegetables,spices",2
+127,Sabudana Khichdi,"sabudana,peanut","sabudana","spices,oil",2
+128,Chowmein,"noodles,vegetables","noodles","sauce,oil",2
+129,Egg Chowmein,"noodles,egg","noodles,egg","sauce,oil",3
+130,Chicken Chowmein,"noodles,chicken","noodles,chicken","sauce,oil",3
+131,Hakka Noodles,"noodles,vegetables","noodles","sauce,oil",2
+132,Noodles,"noodles,water","noodles","spices",1
+133,Pasta,"pasta,water","pasta","sauce,oil",2
+134,White Sauce Pasta,"pasta,milk","pasta","butter,flour",3
+135,Red Sauce Pasta,"pasta,tomato","pasta","garlic,oil",3
+136,Veg Pasta,"pasta,vegetables","pasta","sauce,oil",3
+137,Momos,"flour,vegetables","flour","spices",3
+138,Fried Momos,"momos,oil","momos","oil",3
+139,Tandoori Momos,"momos,curd","momos","spices",4
+140,Spring Roll,"flour,vegetables","flour","oil,spices",3
+141,Kathi Roll,"roti,vegetables","roti","sauce,spices",3
+142,Egg Roll,"roti,egg","roti,egg","sauce,spices",3
+143,Chicken Roll,"roti,chicken","roti,chicken","sauce,spices",4
+144,Paneer Roll,"roti,paneer","roti,paneer","sauce,spices",3
+145,Frankie,"roti,vegetables","roti","sauce,spices",3
+146,Samosa,"flour,potato","flour,potato","oil,spices",4
+147,Aloo Chop,"potato,besan","potato","oil,spices",3
+148,Pakora,"besan,vegetables","besan","oil,spices",3
+149,Onion Pakora,"onion,besan","onion","oil,spices",3
+150,Bread Pakora,"bread,besan","bread","oil,spices",3
+151,Mirchi Bajji,"chilli,besan","chilli","oil,spices",3
+152,Chaat,"potato,chutney","potato","spices",2
+153,Pani Puri,"puri,water","puri","chutney,spices",2
+154,Bhel Puri,"puffed rice,vegetables","puffed rice","chutney,spices",2
+155,Sev Puri,"puri,sev","puri","chutney,spices",2
+156,Papdi Chaat,"papdi,curd","papdi","chutney,spices",2
+157,Seekh Kebab,"meat,spices","meat","oil",4
+158,Shami Kebab,"meat,dal","meat","spices",4
+159,Chicken Kebab,"chicken,spices","chicken","oil",4
+160,Sandwich,"bread,vegetables","bread","butter,sauce",1
+161,Bread Omelette,"bread,egg","bread,egg","oil,spices",2
+162,Maggi,"noodles,water","noodles","masala",1
+163,Cheese Maggi,"noodles,cheese","noodles","cheese,butter",2
+164,Masala Maggi,"noodles,vegetables","noodles","spices,vegetables",2
+165,Cutlet,"potato,vegetables","potato","breadcrumbs,spices",3
+166,Veg Cutlet,"vegetables,crumbs","vegetables","spices,oil",3
+167,Chicken Cutlet,"chicken,crumbs","chicken","spices,oil",4
+168,Ghugni,"peas,spices","peas","onion,oil",2
+169,Cholar Dal,"chana dal,spices","dal","coconut,spices",2
+170,Dalma,"dal,vegetables","dal,vegetables","spices",2
+171,Pakhala Bhata,"rice,water","rice","curd,salt",1
+172,Dhuska,"rice,dal","rice,dal","oil",3
+173,Gatte ki Sabzi,"besan,curd","besan","spices",3
+174,Appam,"rice,coconut","rice","yeast",2
+175,Idiyappam,"rice flour,water","rice flour","coconut",2
+176,Puttu,"rice flour,coconut","rice flour","coconut",2
+177,Kadala Curry,"chickpeas,spices","chickpeas","coconut,spices",3
+178,Bisi Bele Bath,"rice,dal","rice,dal","vegetables,spices",3
+179,Ragi Mudde,"ragi flour,water","ragi","salt",1
+180,Haleem,"wheat,meat","wheat,meat","spices",5
+181,Nihari,"meat,spices","meat","oil,spices",5
+182,Thukpa,"noodles,vegetables","noodles","spices,broth",3
+183,Jadoh,"rice,meat","rice,meat","spices",3
+184,Eromba,"vegetables,fish","vegetables","chilli,spices",3
+185,Kangsho,"meat,vegetables","meat","spices",4
+186,Bai,"vegetables,fermented fish","vegetables","spices",3
+187,Mui Borok,"rice,fermented fish","rice","vegetables,spices",3
+188,Smoked Meat,"meat,spices","meat","wood smoke",4
+189,Bamboo Shoot Curry,"bamboo shoot,vegetables","bamboo shoot","spices,oil",3
+190,Aloo Posto,"potato,posto","potato","mustard oil,spices",2
+191,Shorshe Ilish,"hilsa,mustard","hilsa","mustard oil,spices",4
+192,Bhetki Paturi,"bhetki,mustard","bhetki","banana leaf,spices",4
+193,Ilish Bhapa,"hilsa,mustard","hilsa","mustard oil",4
+194,Doi Maach,"fish,curd","fish","spices,oil",4
+195,Rui Maach Kalia,"fish,spices","fish","onion,oil",4
+196,Katla Kalia,"fish,spices","fish","onion,oil",4
+197,Chingri Bhapa,"prawn,mustard","prawn","mustard oil",4
+198,Chingri Paturi,"prawn,mustard","prawn","banana leaf",4
+199,Mochar Ghonto,"banana flower,potato","banana flower","spices",3
+200,Thor Ghonto,"banana stem,potato","banana stem","spices",3
+201,Shukto,"vegetables,bitter gourd","vegetables","milk,spices",3
+202,Chorchori,"mixed vegetables","vegetables","mustard oil,spices",2
+203,Labra,"mixed vegetables","vegetables","spices",2
+204,Kumro Phool Bhaja,"pumpkin flower,besan","flower","oil,spices",2
+205,Begun Bhaja,"brinjal,oil","brinjal","spices",2
+206,Posto Bora,"posto,potato","posto","oil,spices",2
+207,Macher Jhol,"fish,vegetables","fish","spices,oil",3
+208,Macher Kalia,"fish,spices","fish","onion,oil",4
+209,Chicken Dak Bungalow,"chicken,egg","chicken","potato,spices",4
+210,Bengali Chicken Curry,"chicken,potato","chicken","spices,oil",3
+211,Mangshor Jhol,"mutton,potato","mutton","spices,oil",4
+212,Kosha Chicken,"chicken,spices","chicken","oil",4
+213,Dim Kosha,"egg,spices","egg","oil",2
+214,Dim Posto,"egg,posto","egg","mustard oil",2
+215,Dimer Dalna,"egg,potato","egg","spices,oil",2
+216,Paneer Dalna,"paneer,potato","paneer","spices,oil",3
+217,Chhanar Dalna,"chhena,potato","chhena","spices,oil",3
+218,Niramish Aloo Dum,"potato,spices","potato","ghee",2
+219,Bengali Aloo Dum,"potato,spices","potato","oil",2
+220,Luchi Aloor Dom,"flour,potato","flour,potato","oil,spices",3
+221,Basanti Pulao,"rice,ghee","rice","spices,sugar",3
+222,Gobindobhog Rice,"rice,water","rice","ghee",1
+223,Payesh,"rice,milk","rice","sugar",2
+224,Mishti Doi,"milk,curd","milk","sugar",2
+225,Chanar Payesh,"chhena,milk","chhena","sugar",2
+226,Suji Payesh,"suji,milk","suji","sugar",2
+227,Chirer Pulao,"flattened rice,vegetables","poha","spices",2
+228,Chirer Upma,"flattened rice,vegetables","poha","spices",2
+229,Fish Korma,"fish,curd","fish","spices,oil",4
+230,Bengali Fish Curry,"fish,vegetables","fish","spices,oil",3

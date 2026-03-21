@@ -1,0 +1,176 @@
+custom_id,custom_name,step_no,action,description,time,temperature,scalable,preferred_energy,applicable_actions
+1,cheese,1,finish,"Add grated cheese on top and mix until melted",2,low,no,none,"finish,mix"
+2,butter,1,finish,"Add butter at final stage for richer taste",1,low,no,none,"finish"
+3,ghee,1,finish,"Add ghee at final stage for aroma and flavor",1,low,no,none,"finish"
+4,oil_reduce,1,heat,"Use minimal oil while heating for healthier cooking",0,low,no,lpg,"heat"
+5,oil_increase,1,heat,"Increase oil quantity slightly for better frying",1,low,no,lpg,"heat,fry"
+6,garlic,1,fry,"Add chopped garlic while frying for aroma",2,medium,no,lpg,"fry"
+7,ginger,1,fry,"Add ginger paste while frying for flavor",2,medium,no,lpg,"fry"
+8,spicy_high,1,fry,"Add extra green chilli or red chilli powder",2,medium,no,lpg,"fry,cook"
+
+9,spicy_low,1,cook,"Reduce spice quantity during cooking",0,low,no,none,"cook"
+
+10,vegetables_basic,1,prepare,"Wash and chop vegetables like carrot, beans, peas",4,low,no,none,"prepare"
+10,vegetables_basic,2,fry,"Add vegetables and sauté until slightly soft",4,medium,no,lpg,"fry,cook"
+
+11,vegetables_extra,1,prepare,"Chop additional vegetables for more nutrition",5,low,no,none,"prepare"
+11,vegetables_extra,2,cook,"Cook vegetables thoroughly with dish",6,medium,no,lpg,"cook"
+
+12,chicken,1,prepare,"Clean and cut chicken pieces properly",3,low,no,none,"prepare"
+12,chicken,2,fry,"Cook chicken pieces until fully tender",8,medium,no,lpg,"fry,cook"
+
+13,egg,1,fry,"Crack egg and cook in pan before mixing with dish",4,medium,no,lpg,"fry,cook"
+
+14,paneer,1,fry,"Cut paneer into cubes and fry lightly",5,medium,no,lpg,"fry,cook"
+
+15,soy_chunks,1,boil,"Boil soy chunks in water until soft",5,high,no,induction,"boil"
+15,soy_chunks,2,cook,"Add soy chunks into main dish and cook",5,medium,no,lpg,"cook"
+
+16,extra_water,1,boil,"Add extra water for softer consistency",1,low,yes,induction,"boil"
+
+17,less_water,1,boil,"Reduce water quantity for firmer texture",0,low,yes,none,"boil"
+
+18,fast_cooking,1,boil,"Use high heat to speed up cooking process",0,high,yes,induction,"boil,cook"
+
+19,slow_cooking,1,cook,"Cook on low flame for better flavor absorption",5,low,yes,lpg,"cook"
+
+20,roasting,1,roast,"Lightly roast ingredients before cooking",4,medium,no,lpg,"roast"
+
+21,smoky_flavor,1,finish,"Add smoky effect using heated charcoal method",3,low,no,lpg,"finish"
+
+22,curd,1,mix,"Add curd and mix to create creamy texture",2,low,no,none,"mix"
+
+23,milk,1,mix,"Add milk to improve consistency",2,low,no,none,"mix"
+
+24,lemon,1,finish,"Add lemon juice at end for tangy flavor",1,low,no,none,"finish"
+
+25,tamarind,1,cook,"Add tamarind pulp during cooking for sour taste",3,medium,no,lpg,"cook"
+
+26,coconut,1,mix,"Add grated coconut and mix evenly",3,low,no,none,"mix"
+
+27,nuts,1,fry,"Fry cashews or peanuts and add to dish",3,medium,no,lpg,"fry"
+
+28,sweet_touch,1,mix,"Add small amount of sugar or jaggery",1,low,no,none,"mix"
+
+29,masala_extra,1,cook,"Add extra masala for strong flavor",2,medium,no,lpg,"cook"
+
+30,low_salt,1,cook,"Reduce salt quantity",0,low,no,none,"cook"
+
+31,high_salt,1,cook,"Increase salt slightly",0,low,no,none,"cook"
+
+32,herbs,1,finish,"Add fresh coriander or herbs before serving",1,low,no,none,"finish"
+
+33,steam_finish,1,steam,"Cover and steam dish for final texture",5,low,no,lpg,"steam"
+
+34,double_cook,1,cook,"Cook dish again briefly for enhanced blending",3,medium,no,lpg,"cook"
+
+35,crispy,1,fry,"Fry longer for crispy texture",3,medium,no,lpg,"fry"
+
+36,soft_texture,1,cook,"Cook longer with moisture for softer texture",4,low,no,lpg,"cook"
+
+37,pressure_cook,1,pressure,"Use pressure cooking for faster preparation",7,high,yes,lpg,"cook"
+
+38,induction_only,1,boil,"Prefer induction cooking for efficiency",0,high,yes,induction,"boil"
+
+39,lpg_only,1,cook,"Prefer LPG cooking for better taste",0,medium,yes,lpg,"cook"
+
+40,hybrid_mode,1,boil,"Start with induction then switch to LPG for cooking",0,high,yes,induction,"boil,cook"
+41,protein_boost,1,mix,"Add protein powder or high-protein ingredient and mix well",2,low,no,none,"mix"
+
+42,fiber_rich,1,prepare,"Add fiber-rich ingredients like oats or bran before cooking",3,low,no,none,"prepare,cook"
+
+43,low_fat,1,heat,"Use minimal fat or oil during cooking",0,low,no,lpg,"heat"
+
+44,high_fat,1,finish,"Add extra fat like butter or cream at the end",2,low,no,none,"finish"
+
+45,cream,1,finish,"Add cream at final stage for rich texture",2,low,no,none,"finish"
+
+46,cheese_layer,1,finish,"Add a thick cheese layer on top without mixing",2,low,no,none,"finish"
+
+47,double_spice,1,cook,"Double the spice quantity for intense flavor",2,medium,no,lpg,"cook"
+
+48,half_spice,1,cook,"Reduce spices to half for mild taste",0,low,no,none,"cook"
+
+49,marination,1,prepare,"Marinate ingredients with spices before cooking",10,low,no,none,"prepare"
+
+50,deep_fry,1,fry,"Deep fry ingredients in oil for crispy texture",6,high,no,lpg,"fry"
+
+51,shallow_fry,1,fry,"Use minimal oil for shallow frying",4,medium,no,lpg,"fry"
+
+52,steam_only,1,steam,"Cook ingredients only using steam method",10,low,yes,induction,"steam"
+
+53,boil_only,1,boil,"Cook entire dish by boiling method",10,high,yes,induction,"boil"
+
+54,raw_mix,1,mix,"Add some ingredients raw for fresh taste",2,low,no,none,"mix"
+
+55,fermented,1,prepare,"Allow ingredients to ferment before cooking",30,low,no,none,"prepare"
+
+56,smash,1,prepare,"Mash ingredients before cooking",3,low,no,none,"prepare"
+
+57,grill,1,grill,"Grill ingredients for smoky taste",7,high,no,lpg,"cook"
+
+58,air_fry,1,fry,"Use air frying method for low oil cooking",6,medium,no,induction,"fry"
+
+59,pressure_fast,1,pressure,"Use pressure cooking for quick preparation",5,high,yes,lpg,"cook"
+
+60,layered_cooking,1,cook,"Cook ingredients layer by layer for better flavor",6,medium,no,lpg,"cook"
+
+61,one_pot,1,cook,"Cook everything in a single pot to save energy",0,medium,yes,lpg,"cook"
+
+62,preheat_pan,1,heat,"Preheat pan before adding ingredients",2,medium,no,lpg,"heat"
+
+63,cold_start,1,heat,"Start cooking from cold pan slowly",0,low,no,lpg,"heat"
+
+64,extra_stir,1,cook,"Stir frequently during cooking",1,low,yes,none,"cook"
+
+65,no_stir,1,cook,"Avoid stirring for better texture formation",0,low,no,none,"cook"
+
+66,cover_cook,1,cook,"Keep lid closed while cooking",0,low,yes,lpg,"cook"
+
+67,open_cook,1,cook,"Cook without lid to reduce moisture",0,medium,no,lpg,"cook"
+
+68,reduce_water,1,boil,"Use less water for thicker consistency",0,low,yes,none,"boil"
+
+69,increase_water,1,boil,"Add more water for liquid consistency",1,low,yes,induction,"boil"
+
+70,flavor_boost,1,finish,"Add flavor enhancer at the end",1,low,no,none,"finish"
+
+71,herb_infusion,1,cook,"Cook with herbs to infuse flavor",3,medium,no,lpg,"cook"
+
+72,spice_tempering,1,fry,"Prepare separate spice tempering and add",3,medium,no,lpg,"fry"
+
+73,double_tempering,1,fry,"Add tempering twice for strong flavor",4,medium,no,lpg,"fry"
+
+74,slow_heat,1,cook,"Cook slowly over low heat",6,low,yes,lpg,"cook"
+
+75,high_heat_finish,1,finish,"Use high heat at end for final texture",2,high,no,lpg,"finish"
+
+76,crispy_top,1,fry,"Fry top layer until crispy",3,medium,no,lpg,"fry"
+
+77,soft_top,1,steam,"Steam top layer for softness",4,low,no,lpg,"steam"
+
+78,add_stock,1,boil,"Use vegetable or chicken stock instead of water",2,high,yes,induction,"boil"
+
+79,sauce_mix,1,mix,"Add sauce and mix properly",2,low,no,none,"mix"
+
+80,extra_rest,1,finish,"Let dish rest before serving",5,low,no,none,"finish"
+
+81,quick_rest,1,finish,"Short resting time before serving",2,low,no,none,"finish"
+
+82,double_mix,1,mix,"Mix ingredients multiple times",2,low,no,none,"mix"
+
+83,light_mix,1,mix,"Mix gently to avoid breaking texture",1,low,no,none,"mix"
+
+84,gravy_style,1,boil,"Increase liquid for gravy consistency",3,medium,yes,induction,"boil"
+
+85,dry_style,1,cook,"Reduce moisture for dry dish",3,medium,no,lpg,"cook"
+
+86,caramelize,1,fry,"Cook until ingredients caramelize slightly",5,medium,no,lpg,"fry"
+
+87,deglaze,1,cook,"Add liquid to lift flavors from pan",2,medium,no,lpg,"cook"
+
+88,add_vinegar,1,finish,"Add vinegar for tangy taste",1,low,no,none,"finish"
+
+89,sweet_balance,1,finish,"Add sweet component to balance taste",1,low,no,none,"finish"
+
+90,texture_balance,1,cook,"Adjust cooking for balanced texture",3,medium,no,lpg,"cook"

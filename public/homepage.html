@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flamingo AI</title>
+<link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="logo">Flamingo</div>
+</div>
+
+<!-- LOADER -->
+<div id="loaderContainer">
+  <video id="loaderVideo" autoplay muted playsinline>
+    <source src="/public/videos/loader.mp4" type="video/mp4">
+  </video>
+</div>
+
+<!-- MAIN CONTAINER -->
+<div class="container" style="display:none;">
+  <!-- Background Video -->
+  <video id="bgVideo" autoplay loop muted playsinline>
+    <source src="/public/videos/bg.mp4" type="video/mp4">
+  </video>
+
+  <!-- Front Flamingo Video -->
+  <video id="frontVideo" autoplay muted playsinline>
+    <source src="/public/videos/flamingo.mp4" type="video/mp4">
+  </video>
+
+  <!-- Quote -->
+  <div class="quote">
+    <h1>Cook Smart. Live Better.</h1>
+    <p>
+      Meet Flamingo — your intelligent cooking companion.  
+      Predict recipes, optimize energy, and create delicious meals effortlessly.
+    </p>
+  </div>
+</div>
+
+<!-- FIRST POPUP: Meet Flamingo -->
+<div id="popup">
+  <div class="popup-content">
+    <p>Hey Meet Flamingo! </p>
+    <button id="popupBtn">OK</button>
+  </div>
+</div>
+
+<!-- SECOND POPUP: After 5s of video -->
+<div id="popup2">
+  <div class="popup-content">
+    <p>Ready to start your cooking journey?</p>
+    <button id="popup2Btn">Start</button>
+  </div>
+</div>
+
+<!-- THIRD POPUP: End of video -->
+<div id="popup3">
+  <div class="popup-content">
+    <p>Find your perfect recipe!</p>
+    <button id="popup3Btn">Find Recipe</button>
+  </div>
+</div>
+
+<script src="homepage.js"></script>
+</body>
+</html>

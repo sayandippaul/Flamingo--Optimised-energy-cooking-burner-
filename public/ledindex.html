@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Cooking Control</title>
+</head>
+<body>
+
+<h2>🔥 Smart Cooking Control Panel</h2>
+
+<button onclick="lpgOn()">LPG ON</button>
+<button onclick="lpgOff()">LPG OFF</button>
+<br><br>
+
+<button onclick="inductionOn()">INDUCTION ON</button>
+<button onclick="inductionOff()">INDUCTION OFF</button>
+<br><br>
+
+<button onclick="allOff()">NONE (ALL OFF)</button>
+
+<script>
+function lpgOn() {
+  fetch('http://localhost:3000/lpg-on');
+}
+
+function lpgOff() {
+  fetch('http://localhost:3000/lpg-off');
+}
+
+function inductionOn() {
+  fetch('http://localhost:3000/induction-on');
+}
+
+function inductionOff() {
+  fetch('http://localhost:3000/induction-off');
+}
+
+function allOff() {
+  fetch('http://localhost:3000/none');
+}
+</script>
+
+</body>
+</html>

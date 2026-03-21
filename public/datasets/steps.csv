@@ -1,0 +1,1014 @@
+recipe_id,step_no,action,description,time,temperature,scalable,preferred_energy
+1,1,prepare,"Take required amount of raw rice in a bowl and wash it 2 to 3 times with clean water until excess starch is removed and water becomes clearer, then drain completely",3,low,no,none
+1,2,boil,"Pour required amount of water into a cooking pot and place it on heat, allow the water to reach a rolling boil on high flame",5,high,yes,induction
+1,3,cook,"Add washed rice into boiling water, reduce heat to medium, cover with lid and cook until water is absorbed and rice becomes soft and fluffy",12,medium,yes,lpg
+
+2,1,prepare,"Measure rice properly, wash thoroughly multiple times to remove impurities and excess starch, then drain water completely",3,low,no,none
+2,2,boil,"Add fresh water into a vessel and heat it on high until it starts boiling rapidly",5,high,yes,induction
+2,3,cook,"Add rice into boiling water, lower flame to medium, cover and cook until rice grains are soft and properly cooked",12,medium,yes,lpg
+
+3,1,prepare,"Wash basmati rice gently and soak it in water for around 10 minutes to improve texture, then drain all water",5,low,no,none
+3,2,heat,"Place a pan on stove and add ghee, heat it on medium flame until fully melted",2,medium,no,lpg
+3,3,fry,"Add whole spices like cloves, cinnamon, bay leaf and cashew nuts into hot ghee and fry until aromatic and lightly golden",3,medium,no,lpg
+3,4,boil,"Add measured water into the pan and increase heat to high until it starts boiling",5,high,yes,induction
+3,5,cook,"Add soaked rice into boiling mixture, mix gently, cover and cook on medium flame until rice is fluffy and separated",12,medium,yes,lpg
+
+4,1,prepare,"Wash rice properly and soak for a few minutes, then drain completely",4,low,no,none
+4,2,heat,"Heat oil or ghee in a pan on medium flame",2,medium,no,lpg
+4,3,fry,"Add cumin seeds into hot oil and allow them to crackle releasing aroma",2,medium,no,lpg
+4,4,boil,"Add water and bring it to boil on high flame",5,high,yes,induction
+4,5,cook,"Add rice, cover and cook on medium flame until fully cooked and aromatic",12,medium,yes,lpg
+
+5,1,prepare,"Wash rice thoroughly and keep aside after draining water",3,low,no,none
+5,2,heat,"Heat oil in a pan on medium flame",2,medium,no,lpg
+5,3,fry,"Add chopped onions, green chillies and curry leaves, sauté until onions turn soft and slightly golden",4,medium,no,lpg
+5,4,cook,"Add chopped tomatoes and cook until they become soft and release oil",6,medium,no,lpg
+5,5,boil,"Add water and bring mixture to boil",5,high,yes,induction
+5,6,cook,"Add rice, mix well, cover and cook until rice absorbs all flavors and becomes soft",12,medium,yes,lpg
+
+6,1,prepare,"Cook plain rice separately and allow it to cool slightly",15,medium,yes,lpg
+6,2,heat,"Heat oil in a pan and keep flame medium",2,medium,no,lpg
+6,3,fry,"Add mustard seeds, peanuts and curry leaves, fry until peanuts become crunchy",4,medium,no,lpg
+6,4,mix,"Add cooked rice and mix gently with tempering",3,low,yes,none
+6,5,finish,"Turn off heat and add fresh lemon juice, mix properly to avoid bitterness",2,low,no,none
+
+7,1,prepare,"Cook plain rice and keep aside",15,medium,yes,lpg
+7,2,heat,"Heat oil in a pan on medium flame",2,medium,no,lpg
+7,3,cook,"Add tamarind pulp and spices, cook until mixture thickens and raw smell disappears",6,medium,no,lpg
+7,4,mix,"Add cooked rice into tamarind mixture and mix well",4,low,yes,none
+
+8,1,prepare,"Cook rice and keep ready for mixing",15,medium,yes,lpg
+8,2,heat,"Heat oil in a pan on medium flame",2,medium,no,lpg
+8,3,fry,"Add mustard seeds, green chillies and curry leaves, sauté properly",3,medium,no,lpg
+8,4,mix,"Add grated coconut and cooked rice, mix evenly without breaking rice grains",4,low,yes,none
+
+9,1,prepare,"Cook rice until soft and allow it to cool slightly",15,medium,yes,lpg
+9,2,mix,"Add curd and mix thoroughly with rice to form creamy consistency",3,low,yes,none
+9,3,heat,"Prepare tempering by heating oil and adding mustard seeds and curry leaves",3,medium,no,lpg
+9,4,finish,"Pour tempering over curd rice and mix well",2,low,no,none
+
+10,1,prepare,"Cook rice and dal separately until soft",20,medium,yes,lpg
+10,2,heat,"Heat oil in a large pot on medium flame",2,medium,no,lpg
+10,3,cook,"Add vegetables and sauté for few minutes",5,medium,no,lpg
+10,4,boil,"Add water and bring to boil",5,high,yes,induction
+10,5,cook,"Add sambar spices and tamarind, cook until flavors blend well",10,medium,no,lpg
+10,6,mix,"Add cooked rice and dal into mixture and cook for few more minutes",5,medium,yes,lpg
+
+11,1,prepare,"Wash rice and chop vegetables required for masala rice",5,low,no,none
+11,2,heat,"Heat oil in a pan on medium flame",2,medium,no,lpg
+11,3,fry,"Add onions and sauté until golden brown",5,medium,no,lpg
+11,4,cook,"Add vegetables and spices, cook until partially soft",6,medium,no,lpg
+11,5,boil,"Add water and bring to boil",5,high,yes,induction
+11,6,cook,"Add rice, cover and cook until everything is well combined and rice is cooked",12,medium,yes,lpg
+12,1,prepare,"Wash basmati rice thoroughly 2–3 times to remove excess starch and soak it in water for around 10 minutes, then drain completely",5,low,no,none
+12,2,heat,"Place a pressure cooker or deep pan on stove, add oil and heat on medium flame",2,medium,no,lpg
+12,3,fry,"Add whole spices like bay leaf, cloves, cinnamon and sauté until aromatic",2,medium,no,lpg
+12,4,fry,"Add chopped vegetables like carrot, beans and peas, sauté for a few minutes until slightly soft",5,medium,no,lpg
+12,5,boil,"Add water and bring mixture to a rolling boil on high flame",5,high,yes,induction
+12,6,cook,"Add soaked rice, mix gently, cover and cook until rice is fluffy and vegetables are cooked properly",12,medium,yes,lpg
+
+13,1,prepare,"Wash rice properly and soak for 10 minutes, then drain all water",5,low,no,none
+13,2,heat,"Heat oil or ghee in a pan on medium flame",2,medium,no,lpg
+13,3,fry,"Add cumin seeds and whole spices, sauté until aromatic",2,medium,no,lpg
+13,4,fry,"Add green peas and cook for a few minutes",4,medium,no,lpg
+13,5,boil,"Add water and allow it to boil properly",5,high,yes,induction
+13,6,cook,"Add rice, cover and cook until rice is soft and peas are well cooked",12,medium,yes,lpg
+
+14,1,prepare,"Use pre-cooked and cooled rice to avoid sticking and keep grains separate",2,low,no,none
+14,2,heat,"Heat oil in a wok or pan on high flame",2,high,no,lpg
+14,3,fry,"Add chopped garlic and vegetables, stir fry quickly on high heat",4,high,no,lpg
+14,4,cook,"Add cooked rice and mix continuously while tossing to avoid breaking grains",5,medium,yes,lpg
+14,5,finish,"Add soy sauce and mix evenly, cook for another minute and turn off heat",2,low,no,none
+
+15,1,prepare,"Beat eggs in a bowl and keep aside, ensure rice is pre-cooked and cooled",3,low,no,none
+15,2,heat,"Heat oil in pan on medium flame",2,medium,no,lpg
+15,3,fry,"Pour beaten eggs into pan and scramble until fully cooked",3,medium,no,lpg
+15,4,fry,"Add vegetables and sauté for a few minutes",4,medium,no,lpg
+15,5,cook,"Add rice and mix properly with egg and vegetables",5,medium,yes,lpg
+15,6,finish,"Add soy sauce and mix well before turning off heat",2,low,no,none
+
+16,1,prepare,"Clean and cut chicken into small pieces and keep ready, use pre-cooked rice",5,low,no,none
+16,2,heat,"Heat oil in pan on medium flame",2,medium,no,lpg
+16,3,fry,"Add chicken pieces and cook until fully tender and no longer pink",8,medium,no,lpg
+16,4,fry,"Add vegetables and sauté well",4,medium,no,lpg
+16,5,cook,"Add cooked rice and mix thoroughly with chicken and vegetables",5,medium,yes,lpg
+16,6,finish,"Add sauces and mix evenly, cook briefly and turn off heat",2,low,no,none
+
+17,1,prepare,"Take wheat flour in a bowl, add water gradually and knead into a soft dough, then rest for 10 minutes",10,low,no,none
+17,2,roll,"Divide dough into small balls and roll into thin circular shape using rolling pin",5,low,no,none
+17,3,heat,"Heat a tawa or flat pan on medium flame",2,medium,no,lpg
+17,4,cook,"Place rolled roti on hot tawa, cook until bubbles appear then flip and cook both sides until light brown spots appear",5,medium,yes,lpg
+
+18,1,prepare,"Knead wheat flour with water into smooth dough and rest it properly",10,low,no,none
+18,2,roll,"Roll dough into flat circular shape evenly",5,low,no,none
+18,3,heat,"Heat tawa on medium flame",2,medium,no,lpg
+18,4,cook,"Cook chapati on both sides, pressing gently to ensure even cooking",5,medium,yes,lpg
+
+19,1,prepare,"Mix wheat flour, besan, spices, onion and water to form dough",10,low,no,none
+19,2,roll,"Shape dough into flat thick roti using hands or rolling pin",5,low,no,none
+19,3,heat,"Heat tawa on medium flame",2,medium,no,lpg
+19,4,cook,"Cook roti on both sides with slight oil until golden and cooked properly",6,medium,yes,lpg
+
+20,1,prepare,"Mix bajra flour with warm water and knead into soft dough",8,low,no,none
+20,2,roll,"Flatten dough using hands carefully into round shape",6,low,no,none
+20,3,heat,"Heat tawa on medium flame",2,medium,no,lpg
+20,4,cook,"Cook on both sides until done, pressing gently to avoid breaking",6,medium,yes,lpg
+
+21,1,prepare,"Mix maize flour with warm water and knead properly",8,low,no,none
+21,2,roll,"Shape dough into thick roti using hands",6,low,no,none
+21,3,heat,"Heat tawa on medium flame",2,medium,no,lpg
+21,4,cook,"Cook both sides evenly until golden and firm",6,medium,yes,lpg
+
+22,1,prepare,"Prepare dough using wheat flour and water and let it rest",10,low,no,none
+22,2,roll,"Roll dough into flat circle and apply oil or ghee, then fold and roll again",6,low,no,none
+22,3,heat,"Heat tawa on medium flame",2,medium,no,lpg
+22,4,cook,"Cook paratha on both sides applying oil or ghee until crispy and golden",6,medium,yes,lpg
+
+23,1,prepare,"Boil potatoes, peel and mash them, mix with spices to prepare stuffing",10,medium,no,lpg
+23,2,prepare,"Prepare dough using wheat flour and rest it",10,low,no,none
+23,3,roll,"Stuff potato mixture into dough and roll gently into flat shape",6,low,no,none
+23,4,heat,"Heat tawa on medium flame",2,medium,no,lpg
+23,5,cook,"Cook stuffed paratha on both sides using oil or ghee until golden and crispy",7,medium,yes,lpg
+
+24,1,prepare,"Grate cauliflower and mix with spices for stuffing",6,low,no,none
+24,2,prepare,"Prepare dough and rest properly",10,low,no,none
+24,3,roll,"Stuff cauliflower mixture into dough and roll carefully",6,low,no,none
+24,4,heat,"Heat tawa on medium flame",2,medium,no,lpg
+24,5,cook,"Cook paratha on both sides with oil until properly cooked",7,medium,yes,lpg
+
+25,1,prepare,"Mix chopped methi leaves with wheat flour and spices to make dough",10,low,no,none
+25,2,roll,"Roll dough into circular shape evenly",5,low,no,none
+25,3,heat,"Heat tawa on medium flame",2,medium,no,lpg
+25,4,cook,"Cook paratha on both sides with oil until golden",6,medium,yes,lpg
+
+26,1,prepare,"Mix sattu with spices, onion and lemon juice to prepare stuffing",6,low,no,none
+26,2,prepare,"Prepare dough and let it rest",10,low,no,none
+26,3,roll,"Stuff sattu mixture into dough and roll carefully",6,low,no,none
+26,4,heat,"Heat tawa on medium flame",2,medium,no,lpg
+26,5,cook,"Cook paratha on both sides with oil or ghee until crispy and cooked",7,medium,yes,lpg
+27,1,prepare,"Take wheat flour in a bowl, add a pinch of salt and mix well, then gradually add water and knead into a firm dough suitable for frying, keep it covered and rest for 10 minutes",10,low,no,none
+27,2,roll,"Divide dough into small balls and roll into small circular discs using a rolling pin",6,low,no,none
+27,3,heat,"Heat sufficient oil in a deep pan on medium-high flame until hot enough for frying",5,high,no,lpg
+27,4,cook,"Slide rolled puri into hot oil and press gently so it puffs up, fry both sides until golden brown, then remove",6,high,yes,lpg
+
+28,1,prepare,"Take maida in a bowl, add a small amount of oil and mix, then knead into a soft dough using water, cover and rest for 15 minutes",12,low,no,none
+28,2,roll,"Divide into small balls and roll into thin flat circles evenly",6,low,no,none
+28,3,heat,"Heat oil in deep pan on medium-high flame",5,high,no,lpg
+28,4,cook,"Fry each luchi in hot oil until it puffs and turns light golden, then remove carefully",6,high,yes,lpg
+
+29,1,prepare,"Wash rice and dal together thoroughly and soak for about 10 minutes, then drain water completely",6,low,no,none
+29,2,heat,"Place a pressure cooker on stove, add a small amount of oil or ghee and heat on medium flame",2,medium,no,lpg
+29,3,fry,"Add cumin seeds and sauté until they start crackling and release aroma",2,medium,no,lpg
+29,4,boil,"Add water along with soaked rice and dal mixture, bring it to a boil",5,high,yes,induction
+29,5,cook,"Close cooker lid and cook for 2–3 whistles until rice and dal become soft and mushy",10,medium,yes,lpg
+
+30,1,prepare,"Wash rice and dal together and soak for 10 minutes, chop vegetables like carrot, beans and peas",8,low,no,none
+30,2,heat,"Heat oil or ghee in pressure cooker on medium flame",2,medium,no,lpg
+30,3,fry,"Add cumin seeds and chopped vegetables, sauté for few minutes until slightly soft",5,medium,no,lpg
+30,4,boil,"Add water along with soaked rice and dal, mix well and bring to boil",5,high,yes,induction
+30,5,cook,"Cover and cook for 2–3 whistles until everything is well cooked and soft",10,medium,yes,lpg
+
+31,1,prepare,"Wash dal properly and soak for about 10 minutes to reduce cooking time",6,low,no,none
+31,2,boil,"Add dal and water into pressure cooker and bring to boil on high flame",5,high,yes,induction
+31,3,cook,"Close lid and cook for 2–3 whistles until dal is soft and fully cooked",10,medium,yes,lpg
+31,4,finish,"Add salt and turmeric, mix well and simmer for few minutes before serving",4,low,no,lpg
+
+32,1,prepare,"Wash dal and cook it in pressure cooker with water until soft",10,medium,yes,lpg
+32,2,heat,"Heat oil or ghee in a separate pan on medium flame",2,medium,no,lpg
+32,3,fry,"Add chopped garlic, cumin seeds and red chilli, sauté until golden and aromatic",3,medium,no,lpg
+32,4,combine,"Pour prepared tadka over cooked dal and mix well",2,low,no,none
+32,5,finish,"Simmer for few minutes to blend flavors properly",3,low,no,lpg
+
+33,1,prepare,"Cook dal in pressure cooker until soft and keep aside",10,medium,yes,lpg
+33,2,heat,"Heat oil or ghee in pan on medium flame",2,medium,no,lpg
+33,3,fry,"Add chopped onion and sauté until translucent, then add garlic and tomato and cook until soft",6,medium,no,lpg
+33,4,combine,"Add cooked dal into pan and mix thoroughly with masala",3,low,no,lpg
+33,5,finish,"Cook for few minutes until flavors blend well",4,low,no,lpg
+
+34,1,prepare,"Wash and soak mixed dals together for about 15 minutes",8,low,no,none
+34,2,boil,"Add soaked dals and water into cooker and bring to boil",5,high,yes,induction
+34,3,cook,"Cook under pressure until all dals are soft and well combined",12,medium,yes,lpg
+34,4,finish,"Add salt and spices, simmer for few minutes",4,low,no,lpg
+
+35,1,prepare,"Wash dal and spinach leaves thoroughly and chop spinach finely",6,low,no,none
+35,2,boil,"Cook dal with water in pressure cooker until soft",10,medium,yes,lpg
+35,3,heat,"Heat oil in pan and sauté garlic lightly",3,medium,no,lpg
+35,4,combine,"Add spinach and cooked dal together and mix well",3,low,no,lpg
+35,5,finish,"Cook for few minutes until spinach is properly blended",4,low,no,lpg
+
+36,1,prepare,"Soak black dal and rajma overnight for better cooking",10,low,no,none
+36,2,boil,"Cook soaked dal and rajma in pressure cooker until very soft",15,medium,yes,lpg
+36,3,heat,"Heat butter in pan and add spices, sauté lightly",3,medium,no,lpg
+36,4,combine,"Add cooked dal mixture into pan and mix well",4,low,no,lpg
+36,5,finish,"Add cream and simmer on low flame for rich texture",8,low,no,lpg
+
+37,1,prepare,"Wash dal and soak for 10 minutes",6,low,no,none
+37,2,boil,"Cook dal with water in pressure cooker until soft",10,medium,yes,lpg
+37,3,heat,"Heat oil and add mustard seeds, curry leaves and spices",3,medium,no,lpg
+37,4,combine,"Add cooked dal along with jaggery and tamarind pulp and mix well",4,low,no,lpg
+37,5,finish,"Simmer for few minutes to balance sweet and tangy flavor",5,low,no,lpg
+
+38,1,prepare,"Wash toor dal thoroughly and soak briefly",5,low,no,none
+38,2,boil,"Add dal and water to cooker and bring to boil",5,high,yes,induction
+38,3,cook,"Cook under pressure until soft and mashable",10,medium,yes,lpg
+38,4,finish,"Add salt and turmeric, mix well and simmer briefly",3,low,no,lpg
+
+39,1,prepare,"Wash moong dal properly and soak for few minutes",5,low,no,none
+39,2,boil,"Cook dal with water until soft",8,medium,yes,lpg
+39,3,finish,"Add salt and turmeric and simmer for few minutes",3,low,no,lpg
+
+40,1,prepare,"Wash masoor dal properly before cooking",5,low,no,none
+40,2,boil,"Cook dal with water until soft and fully done",8,medium,yes,lpg
+40,3,finish,"Add salt and turmeric and cook for few minutes",3,low,no,lpg
+
+41,1,prepare,"Wash chana dal thoroughly and soak it in water for about 15 minutes to soften it slightly",8,low,no,none
+41,2,boil,"Place soaked dal with water in a vessel and heat on induction until it starts boiling",6,high,yes,induction
+41,3,cook,"Transfer to pressure cooker and cook on LPG for 2–3 whistles until soft",10,medium,yes,lpg
+41,4,finish,"Add salt and spices, mix well and simmer briefly",4,low,no,lpg
+
+42,1,prepare,"Mix curd with gram flour and water to make smooth batter without lumps",6,low,no,none
+42,2,heat,"Heat mixture on induction and keep stirring continuously until it starts boiling",8,medium,yes,induction
+42,3,cook,"Shift to LPG and cook on low flame allowing kadhi to thicken slowly",12,low,yes,lpg
+42,4,finish,"Prepare tempering with mustard seeds and curry leaves on LPG and add to kadhi",4,medium,no,lpg
+
+43,1,prepare,"Prepare pakora batter and fry small pakoras in hot oil on LPG until golden",10,high,yes,lpg
+43,2,prepare,"Prepare kadhi mixture using curd and gram flour",5,low,no,none
+43,3,heat,"Heat kadhi mixture on induction until boiling",8,medium,yes,induction
+43,4,cook,"Add pakoras and cook on LPG on low flame to absorb flavors",10,low,yes,lpg
+43,5,finish,"Add final tadka on LPG for enhanced taste",4,medium,no,lpg
+
+44,1,prepare,"Soak rajma overnight or for at least 6–8 hours",10,low,no,none
+44,2,boil,"Boil rajma in water on induction until it starts cooking",8,high,yes,induction
+44,3,cook,"Pressure cook rajma on LPG until soft and fully cooked",15,medium,yes,lpg
+44,4,fry,"Prepare masala by sautéing onion, tomato and spices on LPG",8,medium,no,lpg
+44,5,combine,"Mix cooked rajma with masala and cook further on LPG",10,low,yes,lpg
+
+45,1,prepare,"Soak chickpeas overnight and drain water",10,low,no,none
+45,2,boil,"Boil chickpeas on induction until water heats and starts boiling",8,high,yes,induction
+45,3,cook,"Pressure cook on LPG until chickpeas become soft",15,medium,yes,lpg
+45,4,fry,"Prepare masala base using onion, tomato and spices on LPG",8,medium,no,lpg
+45,5,combine,"Add chickpeas and cook together on LPG until flavors blend",10,low,yes,lpg
+
+46,1,prepare,"Soak chickpeas and keep ready for cooking",10,low,no,none
+46,2,boil,"Start boiling chickpeas with water on induction",8,high,yes,induction
+46,3,cook,"Cook under pressure on LPG until soft",15,medium,yes,lpg
+46,4,fry,"Prepare masala with spices, onion and tomato on LPG",8,medium,no,lpg
+46,5,combine,"Mix chickpeas with masala and cook on LPG",10,low,yes,lpg
+
+47,1,prepare,"Soak black chana overnight and wash properly",10,low,no,none
+47,2,boil,"Boil chana on induction until water reaches boiling point",8,high,yes,induction
+47,3,cook,"Cook under pressure on LPG until tender",15,medium,yes,lpg
+47,4,fry,"Prepare masala using spices on LPG",7,medium,no,lpg
+47,5,combine,"Mix chana with masala and cook further",10,low,yes,lpg
+
+48,1,prepare,"Soak dried white peas overnight and wash",10,low,no,none
+48,2,boil,"Heat peas with water on induction until boiling",8,high,yes,induction
+48,3,cook,"Pressure cook on LPG until peas are soft",15,medium,yes,lpg
+48,4,fry,"Prepare curry base using onion, tomato and spices on LPG",8,medium,no,lpg
+48,5,combine,"Add peas to curry and cook on LPG",10,low,yes,lpg
+
+49,1,prepare,"Soak lobia overnight and wash properly",10,low,no,none
+49,2,boil,"Boil lobia with water on induction",8,high,yes,induction
+49,3,cook,"Cook under pressure on LPG until soft",15,medium,yes,lpg
+49,4,fry,"Prepare masala on LPG using spices and onion",7,medium,no,lpg
+49,5,combine,"Mix lobia with masala and cook further",10,low,yes,lpg
+
+50,1,prepare,"Soak green gram overnight or sprout it before cooking",10,low,no,none
+50,2,boil,"Boil green gram on induction until water heats properly",7,high,yes,induction
+50,3,cook,"Cook on LPG until soft and properly done",12,medium,yes,lpg
+50,4,finish,"Add spices and cook briefly on LPG",4,low,no,lpg
+
+51,1,prepare,"Use pre-sprouted grains and wash them properly",5,low,no,none
+51,2,boil,"Heat sprouts with water on induction until boiling",6,high,yes,induction
+51,3,cook,"Cook on LPG until tender but not mushy",10,medium,yes,lpg
+51,4,finish,"Add spices and cook briefly",4,low,no,lpg
+
+52,1,prepare,"Soak soya chunks in hot water for 10 minutes and squeeze out excess water",10,low,no,none
+52,2,boil,"Heat water for soaking on induction for faster heating",5,high,yes,induction
+52,3,fry,"Prepare curry base by sautéing onion and spices on LPG",8,medium,no,lpg
+52,4,combine,"Add soya chunks and cook with masala on LPG",10,medium,yes,lpg
+52,5,finish,"Cook until flavors blend and oil separates slightly",5,low,no,lpg
+
+53,1,prepare,"Soak peanuts for few hours and wash properly",8,low,no,none
+53,2,boil,"Boil peanuts with water on induction until heated well",7,high,yes,induction
+53,3,cook,"Cook on LPG until peanuts are soft",12,medium,yes,lpg
+53,4,fry,"Prepare curry base using spices on LPG",7,medium,no,lpg
+53,5,combine,"Mix peanuts with curry and cook on LPG",10,low,yes,lpg
+54,1,prepare,"Mix besan with curd and water to make a smooth lump-free batter",6,low,no,none
+54,2,heat,"Heat mixture on induction while stirring continuously until it starts boiling",8,medium,yes,induction
+54,3,cook,"Shift to LPG and cook on low flame until curry thickens properly",10,low,yes,lpg
+54,4,finish,"Prepare tempering with spices on LPG and add to curry",4,medium,no,lpg
+
+55,1,prepare,"Wash and cut potatoes and cauliflower into medium-sized pieces",6,low,no,none
+55,2,heat,"Preheat pan with oil on induction for faster heating",3,medium,no,induction
+55,3,fry,"Add vegetables and sauté on LPG on medium flame until slightly soft",8,medium,no,lpg
+55,4,cook,"Add spices, cover and cook on LPG until vegetables are fully cooked",12,medium,yes,lpg
+
+56,1,prepare,"Wash and cut bhindi into small pieces ensuring they are dry",6,low,no,none
+56,2,heat,"Heat oil on induction for quick heating",3,medium,no,induction
+56,3,cook,"Cook bhindi on LPG on medium flame stirring occasionally until non-sticky",12,medium,yes,lpg
+56,4,finish,"Add spices and cook briefly until well mixed",4,low,no,lpg
+
+57,1,prepare,"Roast whole brinjal directly on LPG flame until skin is charred and inside soft",10,high,yes,lpg
+57,2,prepare,"Peel skin and mash roasted brinjal properly",5,low,no,none
+57,3,heat,"Heat oil on induction",3,medium,no,induction
+57,4,fry,"Cook onion, tomato and spices on LPG until soft",8,medium,no,lpg
+57,5,combine,"Add mashed brinjal and cook on LPG until well blended",8,low,yes,lpg
+
+58,1,prepare,"Peel and chop lauki into small cubes",5,low,no,none
+58,2,heat,"Heat oil on induction for faster start",3,medium,no,induction
+58,3,cook,"Cook lauki on LPG with spices on medium flame until soft",12,medium,yes,lpg
+
+59,1,prepare,"Wash and cut tinda into pieces",5,low,no,none
+59,2,heat,"Heat oil on induction",3,medium,no,induction
+59,3,cook,"Cook tinda on LPG with spices until tender",12,medium,yes,lpg
+
+60,1,prepare,"Wash and slice parwal into small pieces",5,low,no,none
+60,2,heat,"Heat oil on induction",3,medium,no,induction
+60,3,cook,"Cook parwal on LPG with spices until soft and cooked",12,medium,yes,lpg
+
+61,1,prepare,"Wash and finely chop cabbage",5,low,no,none
+61,2,heat,"Heat oil on induction",3,medium,no,induction
+61,3,fry,"Add cabbage and sauté on LPG on medium flame",8,medium,no,lpg
+61,4,finish,"Add spices and cook until cabbage softens",6,low,yes,lpg
+
+62,1,prepare,"Wash and cut beans into small pieces",5,low,no,none
+62,2,heat,"Heat oil on induction",3,medium,no,induction
+62,3,cook,"Cook beans on LPG with spices until tender",10,medium,yes,lpg
+
+63,1,prepare,"Wash and chop carrot and peas",5,low,no,none
+63,2,heat,"Heat oil on induction",3,medium,no,induction
+63,3,cook,"Cook vegetables on LPG with spices until soft",10,medium,yes,lpg
+
+64,1,prepare,"Peel and cut pumpkin into cubes",5,low,no,none
+64,2,heat,"Heat oil on induction",3,medium,no,induction
+64,3,cook,"Cook pumpkin on LPG with spices until soft and slightly mushy",10,medium,yes,lpg
+
+65,1,prepare,"Wash and cut drumstick into pieces",5,low,no,none
+65,2,boil,"Boil drumstick with water on induction until partially cooked",8,high,yes,induction
+65,3,cook,"Cook further on LPG with spices and tamarind until fully done",12,medium,yes,lpg
+
+66,1,prepare,"Wash, peel and chop beetroot into small pieces",5,low,no,none
+66,2,boil,"Boil beetroot on induction until partially soft",8,high,yes,induction
+66,3,cook,"Cook on LPG with spices until fully tender",10,medium,yes,lpg
+
+67,1,prepare,"Wash and chop spinach leaves finely",5,low,no,none
+67,2,heat,"Heat oil on induction",3,medium,no,induction
+67,3,fry,"Cook garlic and spinach on LPG until wilted",8,medium,no,lpg
+67,4,finish,"Add spices and cook briefly",3,low,no,lpg
+
+68,1,prepare,"Wash and chop methi leaves and cut potatoes if using",6,low,no,none
+68,2,heat,"Heat oil on induction",3,medium,no,induction
+68,3,cook,"Cook methi and potatoes on LPG until soft and cooked",12,medium,yes,lpg
+
+69,1,prepare,"Wash and cut mixed vegetables into uniform pieces",6,low,no,none
+69,2,heat,"Heat oil on induction",3,medium,no,induction
+69,3,fry,"Cook onion, tomato and spices on LPG until soft",8,medium,no,lpg
+69,4,combine,"Add vegetables and cook on LPG until tender",12,medium,yes,lpg
+
+70,1,prepare,"Crumble paneer and chop onion and tomato",5,low,no,none
+70,2,heat,"Heat oil on induction",3,medium,no,induction
+70,3,fry,"Cook onion, tomato and spices on LPG until soft",8,medium,no,lpg
+70,4,combine,"Add paneer and cook on LPG for few minutes",6,medium,yes,lpg
+70,5,finish,"Cook briefly until flavors mix well",3,low,no,lpg
+71,1,prepare,"Cut paneer into cubes and keep ready along with chopped onion and tomato",5,low,no,none
+71,2,heat,"Heat oil on induction for quick start",3,medium,no,induction
+71,3,fry,"Cook onion, tomato and spices on LPG until soft",8,medium,no,lpg
+71,4,combine,"Add paneer and cook with gravy on LPG",8,medium,yes,lpg
+
+72,1,prepare,"Wash spinach and paneer cubes properly",5,low,no,none
+72,2,boil,"Boil spinach on induction until soft",6,high,yes,induction
+72,3,prepare,"Grind spinach into smooth paste",4,low,no,none
+72,4,heat,"Heat oil on induction",3,medium,no,induction
+72,5,cook,"Cook spinach paste with spices on LPG and add paneer",10,medium,yes,lpg
+
+73,1,prepare,"Cut paneer and prepare peas",5,low,no,none
+73,2,boil,"Boil peas on induction until soft",6,high,yes,induction
+73,3,heat,"Heat oil on induction",3,medium,no,induction
+73,4,fry,"Cook onion, tomato and spices on LPG",8,medium,no,lpg
+73,5,combine,"Add paneer and peas and cook on LPG",10,medium,yes,lpg
+
+74,1,prepare,"Cut paneer and prepare tomato puree",5,low,no,none
+74,2,heat,"Heat butter on induction",3,medium,no,induction
+74,3,fry,"Cook tomato puree and spices on LPG until thick",10,medium,no,lpg
+74,4,combine,"Add paneer and cream and cook on LPG",8,medium,yes,lpg
+
+75,1,prepare,"Prepare paneer cubes and cashew paste",6,low,no,none
+75,2,heat,"Heat oil or butter on induction",3,medium,no,induction
+75,3,fry,"Cook spices and cashew paste on LPG",8,medium,no,lpg
+75,4,combine,"Add paneer and cream and cook on LPG",10,medium,yes,lpg
+
+76,1,prepare,"Cut paneer and vegetables like capsicum",5,low,no,none
+76,2,heat,"Heat oil on induction",3,medium,no,induction
+76,3,cook,"Cook paneer and vegetables on LPG with spices",10,medium,yes,lpg
+
+77,1,prepare,"Boil eggs in water on induction until fully cooked",8,high,yes,induction
+77,2,prepare,"Peel boiled eggs and keep ready",4,low,no,none
+77,3,heat,"Heat oil on induction",3,medium,no,induction
+77,4,fry,"Cook onion, tomato and spices on LPG",8,medium,no,lpg
+77,5,combine,"Add eggs and cook on LPG with gravy",8,medium,yes,lpg
+
+78,1,prepare,"Break eggs into a bowl and beat them properly",4,low,no,none
+78,2,heat,"Heat oil on induction",3,medium,no,induction
+78,3,cook,"Cook onion, tomato and spices on LPG",6,medium,no,lpg
+78,4,combine,"Add eggs and scramble on LPG until cooked",6,medium,yes,lpg
+
+79,1,prepare,"Beat eggs with salt and chopped onion and chilli",4,low,no,none
+79,2,heat,"Heat pan on induction",3,medium,no,induction
+79,3,cook,"Pour egg mixture and cook omelette on LPG until done",5,medium,yes,lpg
+
+80,1,prepare,"Boil eggs on induction until hard boiled",8,high,yes,induction
+80,2,prepare,"Peel eggs and keep ready",4,low,no,none
+80,3,heat,"Heat oil on induction",3,medium,no,induction
+80,4,fry,"Cook onion, tomato and spices on LPG",8,medium,no,lpg
+80,5,combine,"Add eggs and cook on LPG with masala",8,medium,yes,lpg
+
+81,1,prepare,"Clean fish and cut into pieces",5,low,no,none
+81,2,heat,"Heat oil on induction",3,medium,no,induction
+81,3,fry,"Lightly fry fish on LPG until slightly golden",6,medium,no,lpg
+81,4,prepare,"Prepare curry base using spices on LPG",8,medium,no,lpg
+81,5,combine,"Add fish and cook on LPG until done",10,medium,yes,lpg
+
+82,1,prepare,"Clean fish and apply spices",5,low,no,none
+82,2,heat,"Heat oil on induction",3,medium,no,induction
+82,3,cook,"Fry fish on LPG until crispy and cooked",8,medium,yes,lpg
+
+83,1,prepare,"Prepare mustard paste and clean fish",6,low,no,none
+83,2,heat,"Heat oil on induction",3,medium,no,induction
+83,3,cook,"Cook fish with mustard paste on LPG",10,medium,yes,lpg
+
+84,1,prepare,"Clean fish and cut potatoes",6,low,no,none
+84,2,heat,"Heat oil on induction",3,medium,no,induction
+84,3,fry,"Cook potatoes and spices on LPG",8,medium,no,lpg
+84,4,combine,"Add fish and cook with water on LPG",10,medium,yes,lpg
+
+85,1,prepare,"Clean prawns properly",5,low,no,none
+85,2,heat,"Heat oil on induction",3,medium,no,induction
+85,3,fry,"Cook onion, tomato and spices on LPG",8,medium,no,lpg
+85,4,combine,"Add prawns and cook on LPG until done",8,medium,yes,lpg
+86,1,prepare,"Clean prawns and prepare coconut milk along with spices",6,low,no,none
+86,2,heat,"Heat oil on induction for quick start",3,medium,no,induction
+86,3,fry,"Cook onion and spices on LPG until aromatic",8,medium,no,lpg
+86,4,combine,"Add prawns and coconut milk and cook on LPG until done",10,medium,yes,lpg
+
+87,1,prepare,"Clean and cut chicken pieces properly",6,low,no,none
+87,2,boil,"Boil chicken slightly on induction to reduce cooking time",6,high,yes,induction
+87,3,heat,"Heat oil on induction",3,medium,no,induction
+87,4,fry,"Cook onion, tomato and spices on LPG",8,medium,no,lpg
+87,5,combine,"Add chicken and cook on LPG until tender",15,medium,yes,lpg
+
+88,1,prepare,"Marinate chicken with spices for better flavor",8,low,no,none
+88,2,heat,"Heat oil on induction",3,medium,no,induction
+88,3,cook,"Fry chicken on LPG until crispy and fully cooked",12,medium,yes,lpg
+
+89,1,prepare,"Clean chicken and prepare masala ingredients",6,low,no,none
+89,2,heat,"Heat oil on induction",3,medium,no,induction
+89,3,fry,"Cook onion, tomato and spices on LPG",8,medium,no,lpg
+89,4,combine,"Add chicken and cook on LPG until done",15,medium,yes,lpg
+
+90,1,prepare,"Cut chicken into small pieces and marinate with sauces",6,low,no,none
+90,2,heat,"Heat oil on induction",3,medium,no,induction
+90,3,fry,"Fry chicken on LPG until slightly crispy",8,medium,no,lpg
+90,4,combine,"Add sauces and vegetables and cook on LPG",8,medium,yes,lpg
+
+91,1,prepare,"Marinate chicken with yogurt and spices",8,low,no,none
+91,2,heat,"Heat butter on induction",3,medium,no,induction
+91,3,fry,"Cook tomato puree and spices on LPG",10,medium,no,lpg
+91,4,combine,"Add chicken and cook on LPG until tender",15,medium,yes,lpg
+91,5,finish,"Add cream and simmer briefly",5,low,no,lpg
+
+92,1,prepare,"Marinate chicken with yogurt and spices",8,low,no,none
+92,2,heat,"Heat oil on induction",3,medium,no,induction
+92,3,fry,"Cook chicken pieces on LPG until partially done",8,medium,no,lpg
+92,4,combine,"Prepare gravy and cook chicken in it on LPG",12,medium,yes,lpg
+
+93,1,prepare,"Prepare chicken and cashew paste",6,low,no,none
+93,2,heat,"Heat oil on induction",3,medium,no,induction
+93,3,fry,"Cook spices and cashew paste on LPG",8,medium,no,lpg
+93,4,combine,"Add chicken and cook on LPG until tender",15,medium,yes,lpg
+
+94,1,prepare,"Clean chicken and chop vegetables",6,low,no,none
+94,2,boil,"Boil chicken with water on induction",8,high,yes,induction
+94,3,cook,"Add vegetables and cook on LPG until everything is tender",12,medium,yes,lpg
+
+95,1,prepare,"Marinate chicken with yogurt and spices",8,low,no,none
+95,2,heat,"Preheat pan on induction",3,medium,no,induction
+95,3,cook,"Cook chicken on LPG until grilled and cooked properly",12,medium,yes,lpg
+
+96,1,prepare,"Clean and cut mutton pieces",6,low,no,none
+96,2,boil,"Boil mutton on induction to start cooking",8,high,yes,induction
+96,3,cook,"Pressure cook mutton on LPG until tender",20,medium,yes,lpg
+96,4,fry,"Prepare masala on LPG",8,medium,no,lpg
+96,5,combine,"Mix mutton with masala and cook further",10,medium,yes,lpg
+
+97,1,prepare,"Clean mutton and prepare spices",6,low,no,none
+97,2,heat,"Heat oil on induction",3,medium,no,induction
+97,3,fry,"Cook mutton slowly on LPG with spices until dark and rich",20,medium,yes,lpg
+
+98,1,prepare,"Prepare minced meat and ingredients",6,low,no,none
+98,2,heat,"Heat oil on induction",3,medium,no,induction
+98,3,fry,"Cook onion, tomato and spices on LPG",8,medium,no,lpg
+98,4,combine,"Add minced meat and cook on LPG until done",12,medium,yes,lpg
+
+99,1,prepare,"Clean mutton and chop vegetables",6,low,no,none
+99,2,boil,"Boil mutton on induction",8,high,yes,induction
+99,3,cook,"Cook with vegetables on LPG until tender",15,medium,yes,lpg
+
+100,1,prepare,"Wash rice and marinate meat with spices and yogurt",10,low,no,none
+100,2,boil,"Boil water on induction and cook rice partially",8,high,yes,induction
+100,3,heat,"Heat oil or ghee on induction",3,medium,no,induction
+100,4,fry,"Cook marinated meat with spices on LPG",15,medium,no,lpg
+100,5,combine,"Layer rice and meat and cook on LPG on low flame (dum)",20,low,yes,lpg
+101,1,prepare,"Wash rice and chop vegetables, prepare spices and yogurt mixture",8,low,no,none
+101,2,boil,"Boil water on induction and cook rice partially",8,high,yes,induction
+101,3,heat,"Heat oil on induction",3,medium,no,induction
+101,4,fry,"Cook vegetables and spices on LPG",10,medium,no,lpg
+101,5,combine,"Layer rice and vegetables and cook on LPG on low flame",20,low,yes,lpg
+
+102,1,prepare,"Boil eggs on induction and peel them",8,high,yes,induction
+102,2,prepare,"Wash rice and prepare masala ingredients",6,low,no,none
+102,3,boil,"Cook rice partially on induction",8,high,yes,induction
+102,4,fry,"Prepare masala on LPG",10,medium,no,lpg
+102,5,combine,"Add eggs and rice and cook on LPG on low flame",20,low,yes,lpg
+
+103,1,prepare,"Marinate chicken and wash rice",8,low,no,none
+103,2,boil,"Boil rice partially on induction",8,high,yes,induction
+103,3,heat,"Heat oil on induction",3,medium,no,induction
+103,4,fry,"Cook chicken with spices on LPG",15,medium,no,lpg
+103,5,combine,"Layer rice and chicken and cook on LPG on low flame",25,low,yes,lpg
+
+104,1,prepare,"Soak rice and urad dal separately for few hours and grind into batter",15,low,no,none
+104,2,prepare,"Allow batter to ferment overnight for better texture",10,low,no,none
+104,3,heat,"Heat idli steamer water on induction",6,high,yes,induction
+104,4,cook,"Steam batter in molds on LPG until soft idlis are formed",10,medium,yes,lpg
+
+105,1,prepare,"Prepare fermented batter using rice and urad dal",10,low,no,none
+105,2,heat,"Heat tawa on induction",3,medium,no,induction
+105,3,cook,"Spread batter and cook dosa on LPG until crispy",6,medium,yes,lpg
+
+106,1,prepare,"Prepare thick batter and chop vegetables",8,low,no,none
+106,2,heat,"Heat tawa on induction",3,medium,no,induction
+106,3,cook,"Pour batter, add toppings and cook on LPG until done",8,medium,yes,lpg
+
+107,1,prepare,"Wash rice and dal together",5,low,no,none
+107,2,boil,"Boil mixture on induction until soft",10,high,yes,induction
+107,3,cook,"Cook on LPG with ghee and spices until creamy",10,medium,yes,lpg
+
+108,1,prepare,"Roast rava lightly on LPG until aromatic",6,medium,no,lpg
+108,2,boil,"Boil water on induction",6,high,yes,induction
+108,3,cook,"Add rava and cook on LPG until soft and fluffy",8,medium,yes,lpg
+
+109,1,prepare,"Prepare tamarind water and spices",5,low,no,none
+109,2,boil,"Boil mixture on induction",6,high,yes,induction
+109,3,finish,"Add tempering on LPG and cook briefly",5,medium,no,lpg
+
+110,1,prepare,"Wash vegetables and dal",6,low,no,none
+110,2,boil,"Cook dal and vegetables on induction until soft",10,high,yes,induction
+110,3,cook,"Add coconut paste and cook on LPG",8,medium,yes,lpg
+
+111,1,prepare,"Chop vegetables finely",5,low,no,none
+111,2,heat,"Heat oil on induction",3,medium,no,induction
+111,3,cook,"Cook vegetables on LPG until tender",8,medium,yes,lpg
+
+112,1,prepare,"Cut vegetables and prepare coconut paste",6,low,no,none
+112,2,boil,"Boil vegetables on induction",8,high,yes,induction
+112,3,cook,"Cook with coconut and curd on LPG",10,medium,yes,lpg
+
+113,1,prepare,"Prepare dough using wheat flour and methi leaves",10,low,no,none
+113,2,roll,"Roll dough into flat shapes",5,low,no,none
+113,3,heat,"Heat tawa on induction",3,medium,no,induction
+113,4,cook,"Cook thepla on LPG until golden",6,medium,yes,lpg
+
+114,1,prepare,"Soak rice and dal and grind into batter",15,low,no,none
+114,2,prepare,"Add vegetables and spices to batter",6,low,no,none
+114,3,heat,"Heat pan on induction",3,medium,no,induction
+114,4,cook,"Bake or cook batter on LPG until firm",20,medium,yes,lpg
+
+115,1,prepare,"Prepare besan batter with water and lemon",6,low,no,none
+115,2,heat,"Heat steamer on induction",6,high,yes,induction
+115,3,cook,"Steam batter on LPG until fluffy dhokla forms",10,medium,yes,lpg
+115,4,finish,"Add tempering on LPG",4,medium,no,lpg
+
+116,1,prepare,"Mix besan and curd to make smooth batter",6,low,no,none
+116,2,heat,"Cook mixture on induction while stirring continuously",8,medium,yes,induction
+116,3,prepare,"Spread cooked mixture and roll into thin layers",6,low,no,none
+116,4,finish,"Add tempering on LPG and serve",5,medium,no,lpg
+117,1,prepare,"Chop all vegetables and prepare spice mix thoroughly",10,low,no,none
+117,2,heat,"Heat oil on induction",4,medium,no,induction
+117,3,cook,"Cook vegetables slowly on LPG with spices",25,low,yes,lpg
+
+118,1,prepare,"Prepare dough for baati and soak dal",10,low,no,none
+118,2,bake,"Bake baati on LPG or oven until hard and cooked",20,medium,yes,lpg
+118,3,boil,"Cook dal on induction until soft",12,high,yes,induction
+118,4,finish,"Add tempering to dal on LPG",6,medium,no,lpg
+
+119,1,prepare,"Prepare dough balls and roast vegetables for chokha",10,low,no,none
+119,2,bake,"Cook baati on LPG until crispy",20,medium,yes,lpg
+119,3,cook,"Mash vegetables and mix spices on LPG",10,medium,no,lpg
+
+120,1,prepare,"Prepare dough and sattu filling mixture",10,low,no,none
+120,2,bake,"Cook litti on LPG until evenly roasted",20,medium,yes,lpg
+120,3,cook,"Prepare chokha on LPG using roasted vegetables",10,medium,no,lpg
+
+121,1,prepare,"Boil vegetables on induction until soft",12,high,yes,induction
+121,2,heat,"Heat butter on induction",3,medium,no,induction
+121,3,cook,"Mash vegetables and cook bhaji on LPG",15,medium,yes,lpg
+121,4,toast,"Toast pav on LPG with butter",5,medium,no,lpg
+
+122,1,prepare,"Boil potatoes on induction",10,high,yes,induction
+122,2,prepare,"Mash potatoes and prepare vada mixture",6,low,no,none
+122,3,heat,"Heat oil on LPG",5,high,no,lpg
+122,4,fry,"Deep fry vada on LPG until golden",8,high,yes,lpg
+
+123,1,prepare,"Soak and cook sprouts on induction",10,high,yes,induction
+123,2,cook,"Prepare misal curry on LPG",15,medium,yes,lpg
+123,3,serve,"Assemble with pav and toppings",5,low,no,none
+
+124,1,prepare,"Boil potatoes on induction",10,high,yes,induction
+124,2,prepare,"Mix spices and stuffing",6,low,no,none
+124,3,toast,"Toast pav on LPG with stuffing",6,medium,no,lpg
+
+125,1,prepare,"Wash poha and chop vegetables",5,low,no,none
+125,2,heat,"Heat oil on induction",3,medium,no,induction
+125,3,cook,"Cook poha on LPG with spices",8,medium,yes,lpg
+
+126,1,prepare,"Wash dalia and chop vegetables",5,low,no,none
+126,2,boil,"Cook dalia on induction with water",12,high,yes,induction
+126,3,cook,"Add vegetables and cook on LPG",8,medium,yes,lpg
+
+127,1,prepare,"Soak sabudana for few hours",10,low,no,none
+127,2,heat,"Heat oil on induction",3,medium,no,induction
+127,3,cook,"Cook sabudana on LPG with peanuts and spices",10,medium,yes,lpg
+
+128,1,prepare,"Boil noodles on induction",8,high,yes,induction
+128,2,heat,"Heat oil on induction",3,medium,no,induction
+128,3,cook,"Stir fry noodles and vegetables on LPG",10,high,yes,lpg
+
+129,1,prepare,"Boil noodles and eggs on induction",10,high,yes,induction
+129,2,heat,"Heat oil on induction",3,medium,no,induction
+129,3,cook,"Cook egg and noodles on LPG",10,high,yes,lpg
+
+130,1,prepare,"Boil noodles and cook chicken on induction",12,high,yes,induction
+130,2,heat,"Heat oil on induction",3,medium,no,induction
+130,3,cook,"Cook chicken and noodles on LPG",12,high,yes,lpg
+
+131,1,prepare,"Boil noodles on induction",8,high,yes,induction
+131,2,heat,"Heat oil on induction",3,medium,no,induction
+131,3,cook,"Cook noodles on LPG with sauces",10,high,yes,lpg
+
+132,1,boil,"Boil noodles on induction",8,high,yes,induction
+132,2,cook,"Add spices and cook briefly on LPG",5,medium,yes,lpg
+
+133,1,boil,"Boil pasta on induction",10,high,yes,induction
+133,2,heat,"Heat oil on induction",3,medium,no,induction
+133,3,cook,"Cook pasta with sauce on LPG",10,medium,yes,lpg
+
+134,1,boil,"Boil pasta on induction",10,high,yes,induction
+134,2,heat,"Prepare white sauce on LPG using butter and flour",10,medium,yes,lpg
+134,3,cook,"Mix pasta with sauce on LPG",8,medium,yes,lpg
+
+135,1,boil,"Boil pasta on induction",10,high,yes,induction
+135,2,heat,"Prepare tomato sauce on LPG",10,medium,yes,lpg
+135,3,cook,"Mix pasta with sauce on LPG",8,medium,yes,lpg
+
+136,1,boil,"Boil pasta on induction",10,high,yes,induction
+136,2,heat,"Heat oil on induction",3,medium,no,induction
+136,3,cook,"Cook vegetables and pasta on LPG",10,medium,yes,lpg
+
+137,1,prepare,"Prepare dough and stuffing for momos",12,low,no,none
+137,2,shape,"Shape momos carefully",6,low,no,none
+137,3,steam,"Steam momos on LPG or induction",10,medium,yes,lpg
+
+138,1,prepare,"Use prepared momos",3,low,no,none
+138,2,heat,"Heat oil on LPG",5,high,no,lpg
+138,3,fry,"Fry momos until crispy",8,high,yes,lpg
+
+139,1,prepare,"Marinate momos with curd and spices",10,low,no,none
+139,2,heat,"Preheat tandoor or pan on LPG",5,high,no,lpg
+139,3,cook,"Cook momos on LPG until charred",12,high,yes,lpg
+140,1,prepare,"Prepare filling using vegetables and spices",10,low,no,none
+140,2,prepare,"Prepare wrappers using flour dough",8,low,no,none
+140,3,fill,"Fill and roll spring rolls carefully",6,low,no,none
+140,4,heat,"Heat oil on LPG",5,high,no,lpg
+140,5,fry,"Deep fry rolls on LPG until crispy and golden",10,high,yes,lpg
+
+141,1,prepare,"Prepare roti and vegetable filling",8,low,no,none
+141,2,heat,"Heat tawa on induction",3,medium,no,induction
+141,3,cook,"Cook filling on LPG with spices",10,medium,yes,lpg
+141,4,assemble,"Assemble roll with sauce and wrap",5,low,no,none
+
+142,1,prepare,"Prepare roti and beat eggs",6,low,no,none
+142,2,heat,"Heat tawa on induction",3,medium,no,induction
+142,3,cook,"Cook egg on roti on LPG",6,medium,yes,lpg
+142,4,assemble,"Add sauce and roll it properly",4,low,no,none
+
+143,1,prepare,"Cook chicken pieces on induction",10,high,yes,induction
+143,2,heat,"Heat oil on induction",3,medium,no,induction
+143,3,cook,"Cook chicken with spices on LPG",10,medium,yes,lpg
+143,4,assemble,"Place filling inside roti and wrap",5,low,no,none
+
+144,1,prepare,"Cut paneer and prepare filling",6,low,no,none
+144,2,heat,"Heat oil on induction",3,medium,no,induction
+144,3,cook,"Cook paneer on LPG with spices",8,medium,yes,lpg
+144,4,assemble,"Wrap inside roti with sauces",5,low,no,none
+
+145,1,prepare,"Prepare roti and filling",8,low,no,none
+145,2,heat,"Heat tawa on induction",3,medium,no,induction
+145,3,cook,"Cook filling on LPG",8,medium,yes,lpg
+145,4,assemble,"Roll and serve",5,low,no,none
+
+146,1,prepare,"Prepare dough and potato filling",10,low,no,none
+146,2,shape,"Shape samosas properly",6,low,no,none
+146,3,heat,"Heat oil on LPG",5,high,no,lpg
+146,4,fry,"Deep fry samosas until crispy",12,high,yes,lpg
+
+147,1,prepare,"Boil potatoes on induction",10,high,yes,induction
+147,2,prepare,"Mash and mix spices",6,low,no,none
+147,3,heat,"Heat oil on LPG",5,high,no,lpg
+147,4,fry,"Fry aloo chop on LPG",10,high,yes,lpg
+
+148,1,prepare,"Prepare batter and vegetables",8,low,no,none
+148,2,heat,"Heat oil on LPG",5,high,no,lpg
+148,3,fry,"Fry pakoras until golden",10,high,yes,lpg
+
+149,1,prepare,"Slice onions and prepare batter",6,low,no,none
+149,2,heat,"Heat oil on LPG",5,high,no,lpg
+149,3,fry,"Fry onion pakoras",10,high,yes,lpg
+
+150,1,prepare,"Prepare bread stuffing and batter",8,low,no,none
+150,2,heat,"Heat oil on LPG",5,high,no,lpg
+150,3,fry,"Fry bread pakoras",10,high,yes,lpg
+
+151,1,prepare,"Prepare batter and slit chillies",6,low,no,none
+151,2,heat,"Heat oil on LPG",5,high,no,lpg
+151,3,fry,"Fry mirchi bajji",10,high,yes,lpg
+
+152,1,prepare,"Boil potatoes on induction",10,high,yes,induction
+152,2,assemble,"Mix chutneys and spices",6,low,no,none
+
+153,1,prepare,"Prepare flavored water and stuffing",8,low,no,none
+153,2,assemble,"Fill puri and serve immediately",5,low,no,none
+
+154,1,prepare,"Prepare chutneys and chop vegetables",8,low,no,none
+154,2,assemble,"Mix puffed rice and ingredients",5,low,no,none
+
+155,1,prepare,"Prepare chutneys and toppings",6,low,no,none
+155,2,assemble,"Arrange puri and add toppings",5,low,no,none
+
+156,1,prepare,"Prepare papdi and chutneys",6,low,no,none
+156,2,assemble,"Mix all ingredients and serve",5,low,no,none
+
+157,1,prepare,"Prepare minced meat mixture",10,low,no,none
+157,2,shape,"Shape kebabs onto skewers",6,low,no,none
+157,3,heat,"Heat grill on LPG",5,high,no,lpg
+157,4,cook,"Cook kebabs on LPG until done",12,high,yes,lpg
+
+158,1,prepare,"Prepare meat and dal mixture",10,low,no,none
+158,2,shape,"Shape into patties",6,low,no,none
+158,3,heat,"Heat pan on LPG",5,medium,no,lpg
+158,4,fry,"Shallow fry kebabs on LPG",10,medium,yes,lpg
+
+159,1,prepare,"Marinate chicken",10,low,no,none
+159,2,heat,"Preheat grill on LPG",5,high,no,lpg
+159,3,cook,"Cook kebabs on LPG",12,high,yes,lpg
+
+160,1,prepare,"Prepare bread and filling",5,low,no,none
+160,2,heat,"Heat pan on induction",3,medium,no,induction
+160,3,toast,"Toast sandwich on LPG",6,medium,yes,lpg
+
+161,1,prepare,"Beat eggs and prepare bread",5,low,no,none
+161,2,heat,"Heat pan on induction",3,medium,no,induction
+161,3,cook,"Cook omelette and toast bread on LPG",6,medium,yes,lpg
+162,1,boil,"Boil water on induction",5,high,yes,induction
+162,2,cook,"Add noodles and masala, cook on LPG until soft",5,medium,yes,lpg
+
+163,1,boil,"Boil water on induction",5,high,yes,induction
+163,2,cook,"Cook noodles with masala on LPG",5,medium,yes,lpg
+163,3,finish,"Add cheese and melt on low LPG heat",3,low,no,lpg
+
+164,1,boil,"Boil water on induction",5,high,yes,induction
+164,2,cook,"Add vegetables and cook on LPG",6,medium,yes,lpg
+164,3,finish,"Add masala and mix well",3,low,no,lpg
+
+165,1,prepare,"Boil potatoes on induction and mash them",10,high,yes,induction
+165,2,prepare,"Mix vegetables and spices",6,low,no,none
+165,3,shape,"Shape cutlets and coat with breadcrumbs",6,low,no,none
+165,4,fry,"Shallow fry on LPG until golden",10,medium,yes,lpg
+
+166,1,prepare,"Prepare mixed vegetables and mash",8,low,no,none
+166,2,shape,"Shape and coat with crumbs",6,low,no,none
+166,3,fry,"Fry on LPG until crisp",10,medium,yes,lpg
+
+167,1,prepare,"Cook chicken on induction and shred it",10,high,yes,induction
+167,2,prepare,"Mix with spices and shape cutlets",6,low,no,none
+167,3,fry,"Fry on LPG until golden",10,medium,yes,lpg
+
+168,1,prepare,"Soak peas overnight",10,low,no,none
+168,2,boil,"Cook peas on induction",10,high,yes,induction
+168,3,cook,"Prepare curry on LPG",10,medium,yes,lpg
+
+169,1,prepare,"Wash chana dal",5,low,no,none
+169,2,boil,"Cook dal on induction",10,high,yes,induction
+169,3,cook,"Add spices and cook on LPG",8,medium,yes,lpg
+
+170,1,prepare,"Wash dal and vegetables",6,low,no,none
+170,2,boil,"Cook together on induction",12,high,yes,induction
+170,3,cook,"Add spices and cook on LPG",8,medium,yes,lpg
+
+171,1,prepare,"Cook rice on induction",12,high,yes,induction
+171,2,finish,"Soak in water and add curd",5,low,no,none
+
+172,1,prepare,"Prepare batter from rice and dal",10,low,no,none
+172,2,heat,"Heat oil on LPG",5,high,no,lpg
+172,3,fry,"Deep fry dhuska",10,high,yes,lpg
+
+173,1,prepare,"Prepare besan dough and boil pieces on induction",10,high,yes,induction
+173,2,cook,"Prepare curry on LPG",10,medium,yes,lpg
+
+174,1,prepare,"Prepare fermented batter",10,low,no,none
+174,2,heat,"Heat pan on induction",3,medium,no,induction
+174,3,cook,"Cook appam on LPG",6,medium,yes,lpg
+
+175,1,prepare,"Prepare dough and press noodles",8,low,no,none
+175,2,steam,"Steam on LPG",10,medium,yes,lpg
+
+176,1,prepare,"Prepare rice flour mixture",6,low,no,none
+176,2,steam,"Steam puttu on LPG",10,medium,yes,lpg
+
+177,1,prepare,"Soak chickpeas overnight",10,low,no,none
+177,2,boil,"Cook chickpeas on induction",12,high,yes,induction
+177,3,cook,"Prepare curry on LPG",10,medium,yes,lpg
+
+178,1,prepare,"Wash rice, dal, vegetables",6,low,no,none
+178,2,boil,"Cook everything on induction",12,high,yes,induction
+178,3,cook,"Add spices and cook on LPG",10,medium,yes,lpg
+
+179,1,boil,"Boil water on induction",6,high,yes,induction
+179,2,cook,"Add ragi flour and cook on LPG",8,medium,yes,lpg
+
+180,1,prepare,"Soak wheat and marinate meat",10,low,no,none
+180,2,boil,"Cook on induction for long duration",20,high,yes,induction
+180,3,cook,"Slow cook on LPG for rich texture",30,low,yes,lpg
+
+181,1,prepare,"Marinate meat",10,low,no,none
+181,2,cook,"Slow cook on LPG for long hours",40,low,yes,lpg
+
+182,1,boil,"Boil noodles on induction",8,high,yes,induction
+182,2,cook,"Prepare broth and cook on LPG",12,medium,yes,lpg
+
+183,1,prepare,"Prepare rice and meat",6,low,no,none
+183,2,cook,"Cook on LPG until done",20,medium,yes,lpg
+
+184,1,prepare,"Boil vegetables and fish on induction",10,high,yes,induction
+184,2,finish,"Mash and add spices",6,low,no,none
+
+185,1,prepare,"Prepare meat and vegetables",8,low,no,none
+185,2,cook,"Cook on LPG with spices",20,medium,yes,lpg
+186,1,prepare,"Wash and chop assorted vegetables and clean fermented fish carefully",10,low,no,none
+186,2,boil,"Boil vegetables on induction until slightly soft",10,high,yes,induction
+186,3,cook,"Add fermented fish and cook slowly on LPG for rich flavor",15,low,yes,lpg
+
+187,1,prepare,"Prepare rice and fermented fish mixture with vegetables",10,low,no,none
+187,2,cook,"Cook mixture on LPG slowly to develop flavor",20,low,yes,lpg
+
+188,1,prepare,"Marinate meat with salt and spices",10,low,no,none
+188,2,smoke,"Smoke meat on LPG using controlled flame and wood chips",30,low,yes,lpg
+
+189,1,prepare,"Clean bamboo shoots and chop vegetables",10,low,no,none
+189,2,boil,"Boil bamboo shoots on induction to remove bitterness",10,high,yes,induction
+189,3,cook,"Cook curry on LPG with spices",15,medium,yes,lpg
+
+190,1,prepare,"Peel and cut potatoes and soak posto seeds",8,low,no,none
+190,2,heat,"Heat mustard oil on induction",3,medium,no,induction
+190,3,cook,"Cook potatoes with posto paste on LPG until soft",12,medium,yes,lpg
+
+191,1,prepare,"Clean hilsa fish and prepare mustard paste",10,low,no,none
+191,2,heat,"Heat mustard oil on induction",3,medium,no,induction
+191,3,cook,"Cook fish in mustard gravy on LPG",12,medium,yes,lpg
+
+192,1,prepare,"Marinate fish with mustard paste and spices",10,low,no,none
+192,2,wrap,"Wrap fish in banana leaf securely",6,low,no,none
+192,3,cook,"Steam or cook on LPG until done",12,medium,yes,lpg
+
+193,1,prepare,"Marinate hilsa with mustard paste",8,low,no,none
+193,2,steam,"Steam on LPG until soft and cooked",12,medium,yes,lpg
+
+194,1,prepare,"Marinate fish with curd and spices",10,low,no,none
+194,2,cook,"Cook curry on LPG until thick consistency",15,medium,yes,lpg
+
+195,1,prepare,"Clean fish and prepare spice paste",10,low,no,none
+195,2,heat,"Heat oil on induction",3,medium,no,induction
+195,3,cook,"Cook fish curry on LPG with onion gravy",15,medium,yes,lpg
+
+196,1,prepare,"Clean katla fish and prepare spices",10,low,no,none
+196,2,cook,"Cook curry on LPG with rich gravy",15,medium,yes,lpg
+
+197,1,prepare,"Clean prawns and prepare mustard paste",10,low,no,none
+197,2,steam,"Steam prawns on LPG",10,medium,yes,lpg
+
+198,1,prepare,"Marinate prawns and wrap in banana leaf",10,low,no,none
+198,2,cook,"Cook wrapped prawns on LPG",12,medium,yes,lpg
+
+199,1,prepare,"Clean banana flower thoroughly and chop",12,low,no,none
+199,2,boil,"Boil on induction to soften",10,high,yes,induction
+199,3,cook,"Cook with spices on LPG",12,medium,yes,lpg
+
+200,1,prepare,"Clean banana stem and chop finely",10,low,no,none
+200,2,boil,"Boil on induction",10,high,yes,induction
+200,3,cook,"Cook with spices on LPG",12,medium,yes,lpg
+
+201,1,prepare,"Chop mixed vegetables including bitter gourd",10,low,no,none
+201,2,boil,"Cook vegetables on induction",10,high,yes,induction
+201,3,cook,"Finish with milk and spices on LPG",10,low,yes,lpg
+
+202,1,prepare,"Chop vegetables finely",8,low,no,none
+202,2,cook,"Cook on LPG with mustard oil and spices",12,medium,yes,lpg
+
+203,1,prepare,"Cut vegetables evenly",8,low,no,none
+203,2,cook,"Cook slowly on LPG with spices",15,medium,yes,lpg
+
+204,1,prepare,"Prepare batter and clean flowers",8,low,no,none
+204,2,heat,"Heat oil on LPG",5,high,no,lpg
+204,3,fry,"Fry until crispy",8,high,yes,lpg
+
+205,1,prepare,"Slice brinjal and apply salt",6,low,no,none
+205,2,heat,"Heat oil on induction",3,medium,no,induction
+205,3,fry,"Fry on LPG until golden",8,medium,yes,lpg
+
+206,1,prepare,"Prepare posto paste and mix",8,low,no,none
+206,2,shape,"Shape bora",5,low,no,none
+206,3,fry,"Fry on LPG",8,medium,yes,lpg
+
+207,1,prepare,"Clean fish and chop vegetables",10,low,no,none
+207,2,boil,"Boil vegetables on induction",8,high,yes,induction
+207,3,cook,"Cook fish curry on LPG",12,medium,yes,lpg
+
+208,1,prepare,"Prepare fish and spices",10,low,no,none
+208,2,cook,"Cook rich gravy on LPG",15,medium,yes,lpg
+
+209,1,prepare,"Marinate chicken and boil eggs on induction",12,high,yes,induction
+209,2,cook,"Cook curry on LPG with potato and egg",20,medium,yes,lpg
+
+210,1,prepare,"Clean chicken and cut potatoes",10,low,no,none
+210,2,cook,"Cook curry on LPG until tender",20,medium,yes,lpg
+
+211,1,prepare,"Marinate mutton and cut potatoes",10,low,no,none
+211,2,cook,"Cook slowly on LPG until tender",25,low,yes,lpg
+
+212,1,prepare,"Marinate chicken",10,low,no,none
+212,2,cook,"Cook slowly on LPG until thick gravy forms",20,low,yes,lpg
+
+213,1,prepare,"Boil eggs on induction",10,high,yes,induction
+213,2,cook,"Cook masala on LPG",10,medium,yes,lpg
+
+214,1,prepare,"Prepare posto paste and boil eggs",10,high,yes,induction
+214,2,cook,"Cook on LPG with mustard oil",10,medium,yes,lpg
+
+215,1,prepare,"Boil eggs and potatoes on induction",10,high,yes,induction
+215,2,cook,"Cook curry on LPG",12,medium,yes,lpg
+
+216,1,prepare,"Cut paneer and potatoes",8,low,no,none
+216,2,cook,"Cook curry on LPG",12,medium,yes,lpg
+
+217,1,prepare,"Prepare chhena and potatoes",8,low,no,none
+217,2,cook,"Cook on LPG",12,medium,yes,lpg
+
+218,1,prepare,"Boil potatoes on induction",10,high,yes,induction
+218,2,cook,"Cook with spices on LPG",10,medium,yes,lpg
+
+219,1,prepare,"Boil potatoes on induction",10,high,yes,induction
+219,2,cook,"Cook on LPG with oil and spices",10,medium,yes,lpg
+
+220,1,prepare,"Prepare dough and boil potatoes",10,high,yes,induction
+220,2,fry,"Fry luchi on LPG",8,high,yes,lpg
+220,3,cook,"Cook aloo dum on LPG",12,medium,yes,lpg
+
+221,1,prepare,"Wash rice and prepare spices",8,low,no,none
+221,2,heat,"Heat ghee on induction",3,medium,no,induction
+221,3,cook,"Cook pulao on LPG",15,medium,yes,lpg
+
+222,1,boil,"Cook rice on induction",12,high,yes,induction
+
+223,1,boil,"Boil milk on induction",10,high,yes,induction
+223,2,cook,"Add rice and cook slowly on LPG",20,low,yes,lpg
+
+224,1,boil,"Boil milk on induction",10,high,yes,induction
+224,2,ferment,"Add culture and keep aside",10,low,no,none
+
+225,1,prepare,"Prepare chhena and boil milk",10,high,yes,induction
+225,2,cook,"Cook on LPG",15,low,yes,lpg
+
+226,1,boil,"Boil milk on induction",10,high,yes,induction
+226,2,cook,"Add suji and cook on LPG",12,medium,yes,lpg
+
+227,1,prepare,"Wash poha and chop vegetables",6,low,no,none
+227,2,cook,"Cook on LPG",10,medium,yes,lpg
+
+228,1,prepare,"Prepare poha and vegetables",6,low,no,none
+228,2,cook,"Cook on LPG",10,medium,yes,lpg
+
+229,1,prepare,"Marinate fish with curd and spices",10,low,no,none
+229,2,cook,"Cook on LPG until creamy",15,medium,yes,lpg
+
+230,1,prepare,"Clean fish and chop vegetables",8,low,no,none
+230,2,cook,"Cook curry on LPG",15,medium,yes,lpg

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Servo Control</title>
+</head>
+<body>
+  <h2>Servo Motor Control</h2>
+
+  <button onclick="rotateClockwise()">Clockwise</button>
+  <button onclick="rotateAntiClockwise()">Anti-Clockwise</button>
+
+  <script>
+    function rotateClockwise() {
+      fetch('http://localhost:5000/clockwise');
+    }
+
+    function rotateAntiClockwise() {
+      fetch('http://localhost:5000/anticlockwise');
+    }
+  </script>
+
+</body>
+</html>
