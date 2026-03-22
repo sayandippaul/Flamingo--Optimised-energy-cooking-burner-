@@ -286,6 +286,7 @@ pauseBtn.addEventListener("click", async () => {
         playVideo("public/videos/gas_close.mp4", false, () => videoPlayer.pause());
         timerEl.innerText = "Cooking Done ✅";
         methodEl.innerText = "Finished";
+    pauseBtn.style.display="none";
 
 
     }
