@@ -15,22 +15,23 @@ void loop() {
 
     if (command == 'C') {
       // Clockwise slow
-      myServo.write(180);
+        myServo.write(90);
         
       // for (int pos = currentPos; pos <= 180; pos++) {
-        
+      //   myServo.write(pos);
       //   delay(20);  // increase delay = slower
       // }
-      currentPos = 180;
+      // currentPos = 180;
     }
 
     if (command == 'A') {
       // Anti-clockwise slow
+       
         myServo.write(0);
       // for (int pos = currentPos; pos >= 0; pos--) {
       //   delay(20);  // increase delay = slower
       // }
-      currentPos = 0;
+      // currentPos = 0;
     }
   }
 }

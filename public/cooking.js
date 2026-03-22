@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (data.connected && !isArduinoConnected) {
                 isArduinoConnected = true;
-                alert("Arduino Connected ✅");
+                // alert("");
+                document.getElementById("burnerstatus").innerHTML="Burner Connected ✅"
             } 
             else if (!data.connected && isArduinoConnected) {
                 isArduinoConnected = false;
@@ -83,9 +84,10 @@ function startApp(data) {
     const methodEl = document.getElementById("method");
     const videoPlayer = document.getElementById("mainVideo");
     const startBtn = document.getElementById("startBtn");
+    const safetyBtn = document.getElementById("safetyBtn");
 
     itemName.innerText = "Item: " + data.name;
-    energyEl.innerText = `Total Energy: ${data.total_energy} (₹${data.total_cost})`;
+    energyEl.innerText = `Total Energy: ${data.total_energy}Kw/hr (₹${data.total_cost/10})`;
 
     let currentStep = 0;
     let timeLeft = 0;
@@ -99,6 +101,95 @@ function startApp(data) {
         startBtn.style.display = "none";
         startCooking();
     });
+  // ================= FORCE STOP =================
+let isStopped = false;
+
+safetyBtn.addEventListener("click", () => {
+    stopforcefully();
+});
+
+async function stopforcefully() {
+
+    isStopped = true;                // 🔥 stop all future execution
+    clearInterval(timerInterval);   // 🔥 stop timer
+
+    stepsList.innerHTML = "<li>❌ You stopped the burner forcefully</li>";
+
+    // 🔥 Turn OFF all devices
+    if (isArduinoConnected) {
+        await fetch(`${BASE_URL}/arduino/none`, { method: "POST" });
+        await fetch(`${BASE_URL}/arduino/close_cover`, { method: "POST" });
+    }
+
+    videoPlayer.pause();
+    playVideo("public/videos/gas_close.mp4", false, () => videoPlayer.pause());
+
+    timerEl.innerText = "Partial Done";
+    methodEl.innerText = "Stopped";
+    pauseBtn.style.display="none";
+
+}
+
+// ================= PAUSE / RESUME =================
+let isPaused = false;
+
+const pauseBtn = document.getElementById("pauseBtn");
+
+pauseBtn.addEventListener("click", async () => {
+
+    if (!isPaused) {
+        // ===== PAUSE =====
+        isPaused = true;
+
+        clearInterval(timerInterval);        // pause timer
+        videoPlayer.pause();                 // pause video
+        // methodEl.innerText = "Paused ⏸️";
+
+        // 🔥 TURN OFF ALL DEVICES
+        if (isArduinoConnected) {
+            await fetch(`${BASE_URL}/arduino/none`, { method: "POST" });
+        }
+
+        pauseBtn.innerText = "Resume ▶️";
+    } 
+    else {
+        // ===== RESUME =====
+        isPaused = false;
+
+        videoPlayer.play().catch(err => console.log(err));
+        // methodEl.innerText = "Resumed ▶️";
+
+        // 🔥 TURN ON DEVICE BASED ON CURRENT STEP
+        let step = data.steps[currentStep];
+
+        if (isArduinoConnected && step) {
+            let method = (step.method || "").toLowerCase();
+
+            if (method === "lpg") {
+                await fetch(`${BASE_URL}/arduino/lpg_on`, { method: "POST" });
+            } 
+            else if (method === "induction") {
+                await fetch(`${BASE_URL}/arduino/induction_on`, { method: "POST" });
+            } 
+            else {
+                await fetch(`${BASE_URL}/arduino/none`, { method: "POST" });
+            }
+        }
+
+        // restart timer
+        timerInterval = setInterval(() => {
+            timerEl.innerText = `Time: ${timeLeft}s`;
+            timeLeft--;
+            if (timeLeft < 0) {
+                clearInterval(timerInterval);
+                currentStep++;
+                runStep();
+            }
+        }, 1000);
+
+        pauseBtn.innerText = "Pause ⏸️";
+    }
+});
 
     // ================= VIDEO PLAYER =================
     function playVideo(src, loop = false, onEndCallback = null) {
@@ -117,8 +208,8 @@ function startApp(data) {
         stepsList.innerHTML = "";
         let li = document.createElement("li");
         li.innerText = `${step.description}
-⚡ Energy: ${step.energy || 0}
-💰 Cost: ₹${step.cost || 0}`;
+⚡ Energy: ${step.energy || 0} Kw/hr
+💰 Cost: ₹${step.cost/10 || 0}`;
         stepsList.appendChild(li);
         methodEl.innerText = "Method: " + (step.method || "N/A");
         timeLeft = step.time || 5; // default
@@ -163,18 +254,26 @@ function startApp(data) {
         runStep();
     }
 
+
     function runStep() {
-        if (!data.steps || currentStep >= data.steps.length) {
-            endCooking();
-            return;
-        }
-        let step = data.steps[currentStep];
-        showStep(step);
-        startTimer(() => {
-            currentStep++;
-            runStep();
-        });
+
+    if (isStopped) return;   // 🔥 STOP EVERYTHING
+
+    if (!data.steps || currentStep >= data.steps.length) {
+        endCooking();
+        return;
     }
+
+    let step = data.steps[currentStep];
+    showStep(step);
+
+    startTimer(() => {
+        if (isStopped) return;   // 🔥 prevent restart
+        currentStep++;
+        runStep();
+    });
+}
+
 
     async function endCooking() {
         stepsList.innerHTML = "<li>🙏 Thank you! Enjoy your dish 🍽️</li>";

@@ -52,6 +52,9 @@ async function createSidePanel(isPredict) {
     gasInput.step = "0.1";
     sidePanel.appendChild(gasLabel);
     sidePanel.appendChild(gasInput);
+    // 🔥 Set default value from localStorage or 20.9
+const storedGas = localStorage.getItem("gasWeight");
+gasInput.value = storedGas ? parseFloat(storedGas) : 20.9;
 
     // ===== Search Input =====
     const searchInput = document.createElement("input");
@@ -142,7 +145,28 @@ async function createSidePanel(isPredict) {
 
             startBtn.addEventListener("click", async () => {
                 const selectedRecipe = recipeSelect.value;
-                const gasWeight = parseFloat(gasInput.value) || 0;
+                // const gasWeight = parseFloat(gasInput.value) || 0;
+                let gasWeight = parseFloat(gasInput.value);
+
+// 🔥 If user entered value → modify randomly
+if (gasWeight) {
+    const variation = Math.random() * (0.5 - 0.2) + 0.2;
+    gasWeight = gasWeight - variation;
+
+    localStorage.setItem("gasWeight", gasWeight);
+} 
+// 🔥 If no input → check localStorage
+else {
+    const storedGas = localStorage.getItem("gasWeight");
+
+    if (storedGas) {
+        gasWeight = parseFloat(storedGas);
+    } else {
+        gasWeight = 20.9;
+        localStorage.setItem("gasWeight", gasWeight);
+    }
+}
+
                 if(!gasWeight){
                     alert("Enter gas weight to find the optimized energy");
                     return;
@@ -196,7 +220,28 @@ async function createSidePanel(isPredict) {
 
         startBtn.addEventListener("click", async () => {
             const selectedRecipe = selectionSelect.value;
-            const gasWeight = parseFloat(gasInput.value) || 0;
+            // const gasWeight = parseFloat(gasInput.value) || 0;
+            let gasWeight = parseFloat(gasInput.value);
+
+// 🔥 If user entered value → modify randomly
+if (gasWeight) {
+    const variation = Math.random() * (0.5 - 0.2) + 0.2;
+    gasWeight = gasWeight - variation;
+
+    localStorage.setItem("gasWeight", gasWeight);
+} 
+// 🔥 If no input → check localStorage
+else {
+    const storedGas = localStorage.getItem("gasWeight");
+
+    if (storedGas) {
+        gasWeight = parseFloat(storedGas);
+    } else {
+        gasWeight = 20.9;
+        localStorage.setItem("gasWeight", gasWeight);
+    }
+}
+
             const servings = parseInt(servingsSelect.value);
 
             if (!selectedRecipe) {

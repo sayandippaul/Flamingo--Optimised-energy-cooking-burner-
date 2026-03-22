@@ -9,7 +9,7 @@ const int inductionLedPin = 3;
 void setup() {
   Serial.begin(9600); // Communication with Python
   gasServo.attach(servoPin);
-  gasServo.write(0); // Start closed
+  gasServo.write(90); // Start closed
 
   pinMode(lpgLedPin, OUTPUT);
   pinMode(inductionLedPin, OUTPUT);
@@ -26,10 +26,12 @@ void loop() {
     command.trim();
 
     if (command == "OPEN_COVER") {
-      gasServo.write(90);
+      Serial.println("OPEN_COVER"); // Initial handshake
+      gasServo.write(0);
     }
     else if (command == "CLOSE_COVER") {
-      gasServo.write(0);
+      Serial.println("CLOSE_COVER"); // Initial handshake
+      gasServo.write(90);
       digitalWrite(2, LOW);
       digitalWrite(3, LOW);
     }
