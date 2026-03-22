@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:5000"; // always use full URL for fetch
+// const BASE_URL = "http://localhost:5000"; // always use full URL for fetch
+const BASE_URL = "https://flamingo-optimised-energy-cooking-burner.onrender.com"; // always use full URL for fetch
 
 let isSoundEnabled = false;
 

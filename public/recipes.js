@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:5000"; // Backend URL
+// const BASE_URL = "http://localhost:5000"; // Backend URL
+const BASE_URL = "https://flamingo-optimised-energy-cooking-burner.onrender.com"; // Backend URL
 
 const predictBtn = document.getElementById("predictBtn");
 const chooseBtn = document.getElementById("chooseBtn");
